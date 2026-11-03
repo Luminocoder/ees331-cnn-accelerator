@@ -728,7 +728,7 @@
     "destination_scope": "code_submission"
   },
   {
-    "file": "hardware/build/pl/system.xsa",
+    "file": "prebuilt/system.xsa",
     "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\build\\pl\\system.xsa",
     "bytes": 550463,
     "sha256": "c544eae1bc42425a63559ec3f146f759806ac45f2c00e658efd532a91240bce4",

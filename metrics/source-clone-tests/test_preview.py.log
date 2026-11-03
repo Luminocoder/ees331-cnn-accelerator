@@ -1,0 +1,11 @@
+test_failure_and_blank_clear_previous_boxes (__main__.Preview.test_failure_and_blank_clear_previous_boxes) ... ok
+test_late_frame_is_discarded (__main__.Preview.test_late_frame_is_discarded) ... ok
+test_live_boxes_match_capture_without_inference_uart_or_logs (__main__.Preview.test_live_boxes_match_capture_without_inference_uart_or_logs) ... ok
+test_one_worker_snapshot_and_no_backlog_even_after_invalidation (__main__.Preview.test_one_worker_snapshot_and_no_backlog_even_after_invalidation) ... ok
+test_partial_pair_has_live_box_but_still_cannot_be_recognized (__main__.Preview.test_partial_pair_has_live_box_but_still_cannot_be_recognized) ... ok
+test_rate_limit_and_box_expiration (__main__.Preview.test_rate_limit_and_box_expiration) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.798s
+
+OK

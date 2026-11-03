@@ -1,0 +1,15 @@
+test_board_acceptance_simulation_and_mismatch_detection (__main__.Integration.test_board_acceptance_simulation_and_mismatch_detection) ... ok
+test_default_is_original_single_scale_without_comparison (__main__.Integration.test_default_is_original_single_scale_without_comparison) ... ok
+test_display_crc_and_packet_contract (__main__.Integration.test_display_crc_and_packet_contract) ... ok
+test_init_requires_hello_and_display_not_only_deploy (__main__.Integration.test_init_requires_hello_and_display_not_only_deploy) ... ok
+test_nonhardware_modes_reject_board_acceptance (__main__.Integration.test_nonhardware_modes_reject_board_acceptance) ... ok
+test_normalization_matches_original_v29_oracle (__main__.Integration.test_normalization_matches_original_v29_oracle) ... ok
+test_original_guarded_bringup_is_unchanged (__main__.Integration.test_original_guarded_bringup_is_unchanged) ... ok
+test_retired_models_cannot_enter_live_inference (__main__.Integration.test_retired_models_cannot_enter_live_inference) ... ok
+test_two_digits_two_images_one_combined_display_and_saved_inputs (__main__.Integration.test_two_digits_two_images_one_combined_display_and_saved_inputs) ... ok
+test_wrong_display_ack_fails (__main__.Integration.test_wrong_display_ack_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 6.125s
+
+OK

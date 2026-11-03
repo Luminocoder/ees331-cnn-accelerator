@@ -1,0 +1,11 @@
+test_background_outside_guide_does_not_enter_tensor (__main__.Demo.test_background_outside_guide_does_not_enter_tensor) ... ok
+test_clipped_stroke_at_guide_edge_is_rejected (__main__.Demo.test_clipped_stroke_at_guide_edge_is_rejected) ... ok
+test_demo_retains_original_camera_roi_and_disjoint_pair (__main__.Demo.test_demo_retains_original_camera_roi_and_disjoint_pair) ... ok
+test_empty_second_guide_rejects_whole_pair (__main__.Demo.test_empty_second_guide_rejects_whole_pair) ... ok
+test_guided_extraction_is_original_with_explicit_center_refinement (__main__.Demo.test_guided_extraction_is_original_with_explicit_center_refinement) ... ok
+test_two_guides_are_left_to_right_and_classify_independently (__main__.Demo.test_two_guides_are_left_to_right_and_classify_independently) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.054s
+
+OK

@@ -26,5 +26,9 @@
   "validation": "74 source checks, actual EXE 200/200, images/batch/tensor replay passed after relocation; metrics/packaging_validation.json",
   "repository_url": "https://github.com/Luminocoder/ees331-cnn-accelerator",
   "windows_runtime": "separate companion folder ees331_runtime_v56; not uploaded as Git source",
-  "raw_latest_logs": "retained local history latest_board_logs; selected original evidence is in metrics/"
+  "raw_latest_logs": "retained local history latest_board_logs; selected original evidence is in metrics/",
+  "source_clone_verified": true,
+  "source_clone_evidence": "metrics/source_clone_validation.json",
+  "clean_second_computer_verified": false,
+  "packaging_test_adapters": "provenance/packaging_adaptations.json"
 }

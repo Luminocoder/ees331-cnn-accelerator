@@ -1,0 +1,14 @@
+test_blank_cells_have_no_lit_segment (__main__.Batch.test_blank_cells_have_no_lit_segment) ... ok
+test_hardware_inference_can_be_collected_without_immediate_display (__main__.Batch.test_hardware_inference_can_be_collected_without_immediate_display) ... ok
+test_manifest_cli_rejects_hardware_or_other_actions (__main__.Batch.test_manifest_cli_rejects_hardware_or_other_actions) ... ok
+test_more_than_eight_digits_remain_complete_and_failures_keep_order (__main__.Batch.test_more_than_eight_digits_remain_complete_and_failures_keep_order) ... ok
+test_offline_manifest_mixes_modes_and_continues_after_error (__main__.Batch.test_offline_manifest_mixes_modes_and_continues_after_error) ... ok
+test_page_is_held_for_exactly_five_seconds_including_last_page (__main__.Batch.test_page_is_held_for_exactly_five_seconds_including_last_page) ... ok
+test_pending_duplicate_and_old_batch_results_cannot_be_committed (__main__.Batch.test_pending_duplicate_and_old_batch_results_cannot_be_committed) ... ok
+test_stop_and_replay_cannot_be_advanced_by_old_callbacks (__main__.Batch.test_stop_and_replay_cannot_be_advanced_by_old_callbacks) ... ok
+test_three_pairs_with_true_blank_separators_and_zero_padding (__main__.Batch.test_three_pairs_with_true_blank_separators_and_zero_padding) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.967s
+
+OK

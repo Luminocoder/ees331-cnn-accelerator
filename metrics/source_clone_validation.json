@@ -1,0 +1,85 @@
+{
+  "date_utc": "2026-11-03T02:48:36.598804+00:00",
+  "passed": true,
+  "binary_validation": false,
+  "binary_validation_skipped_reason": "Git source clone: optional EXE/runtime not included",
+  "source_regression_scripts": [
+    "test_v42.py",
+    "test_v5.py",
+    "test_native_runtime.py",
+    "test_demo.py",
+    "test_preview.py",
+    "test_camera_center.py",
+    "test_batch.py",
+    "test_display_transport.py",
+    "test_arm_benchmark.py"
+  ],
+  "results": [
+    {
+      "name": "build_host_harness",
+      "exit_code": 0,
+      "log": "build_host_harness.log"
+    },
+    {
+      "name": "test_v42.py",
+      "exit_code": 0,
+      "log": "test_v42.py.log"
+    },
+    {
+      "name": "test_v5.py",
+      "exit_code": 0,
+      "log": "test_v5.py.log"
+    },
+    {
+      "name": "test_native_runtime.py",
+      "exit_code": 0,
+      "log": "test_native_runtime.py.log"
+    },
+    {
+      "name": "test_demo.py",
+      "exit_code": 0,
+      "log": "test_demo.py.log"
+    },
+    {
+      "name": "test_preview.py",
+      "exit_code": 0,
+      "log": "test_preview.py.log"
+    },
+    {
+      "name": "test_camera_center.py",
+      "exit_code": 0,
+      "log": "test_camera_center.py.log"
+    },
+    {
+      "name": "test_batch.py",
+      "exit_code": 0,
+      "log": "test_batch.py.log"
+    },
+    {
+      "name": "test_display_transport.py",
+      "exit_code": 0,
+      "log": "test_display_transport.py.log"
+    },
+    {
+      "name": "test_arm_benchmark.py",
+      "exit_code": 0,
+      "log": "test_arm_benchmark.py.log"
+    },
+    {
+      "name": "source_selftest",
+      "exit_code": 0,
+      "log": "source_selftest.log"
+    },
+    {
+      "name": "source_initializer_hashes",
+      "exit_code": 0,
+      "log": "source_initializer_hashes.log"
+    }
+  ],
+  "hardware_accessed": false,
+  "camera_opened": false,
+  "jtag_accessed": false,
+  "not_a_new_board_measurement": true,
+  "scope": "Independent Git clone on the same Windows computer; optional EXE/runtime excluded. Real host C harness compiled from packaged source.",
+  "clean_second_computer_verified": false
+}
