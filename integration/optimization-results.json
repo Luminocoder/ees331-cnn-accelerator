@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-01T23:57:52.087185",
+  "candidate": "v5.6",
+  "new_board_measurement": false,
+  "rtl_simulation": {
+    "frozen_samples": 20,
+    "frozen_logits_matched": 200,
+    "extra_samples": 5,
+    "extra_logits_matched": 50,
+    "scalar_convolution_outputs_matched": 28833,
+    "reset_during_preload_and_run": true,
+    "soc_reset_recovery": true,
+    "includes_per_layer_cache_preload": true,
+    "clock_mhz": 50,
+    "before_busy_cycles": 1256726,
+    "after_busy_cycles": 103092,
+    "before_busy_ms": 25.13452,
+    "after_busy_ms": 2.06184,
+    "busy_cycle_improvement": 12.190334846544834,
+    "layers": {
+      "conv1": {
+        "before_cycles": 250931,
+        "after_cycles": 7174,
+        "before_ms_at_50MHz": 5.01862,
+        "after_ms_at_50MHz": 0.14348,
+        "simulation_improvement": 34.97783663228324
+      },
+      "pool1": {
+        "before_cycles": 10979,
+        "after_cycles": 10979,
+        "before_ms_at_50MHz": 0.21958,
+        "after_ms_at_50MHz": 0.21958,
+        "simulation_improvement": 1.0
+      },
+      "conv2": {
+        "before_cycles": 937763,
+        "after_cycles": 27886,
+        "before_ms_at_50MHz": 18.75526,
+        "after_ms_at_50MHz": 0.55772,
+        "simulation_improvement": 33.628451552750484
+      },
+      "pool2": {
+        "before_cycles": 5491,
+        "after_cycles": 5491,
+        "before_ms_at_50MHz": 0.10982,
+        "after_ms_at_50MHz": 0.10982,
+        "simulation_improvement": 1.0
+      },
+      "fc1": {
+        "before_cycles": 50819,
+        "after_cycles": 50819,
+        "before_ms_at_50MHz": 1.01638,
+        "after_ms_at_50MHz": 1.01638,
+        "simulation_improvement": 1.0
+      },
+      "fc2": {
+        "before_cycles": 743,
+        "after_cycles": 743,
+        "before_ms_at_50MHz": 0.01486,
+        "after_ms_at_50MHz": 0.01486,
+        "simulation_improvement": 1.0
+      }
+    },
+    "raw_profiles": [
+      {
+        "suite": "reset",
+        "image": 0,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 0,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 1,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 2,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 3,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 4,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 5,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 6,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 7,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 8,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 9,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 10,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 11,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 12,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 13,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 14,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 15,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 16,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 17,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 18,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "frozen",
+        "image": 19,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "extra",
+        "image": 0,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "extra",
+        "image": 1,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "extra",
+        "image": 2,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "extra",
+        "image": 3,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      },
+      {
+        "suite": "extra",
+        "image": 4,
+        "busy_cycles": 103092,
+        "conv1": 7174,
+        "pool1": 10979,
+        "conv2": 27886,
+        "pool2": 5491,
+        "fc1": 50819,
+        "fc2": 743,
+        "clock_ns": 20
+      }
+    ]
+  },
+  "post_route_timing": {
+    "wns_ns": 3.864,
+    "tns_ns": 0.0,
+    "whs_ns": 0.034,
+    "ths_ns": 0.0
+  },
+  "post_route_resources": {
+    "Slice LUTs": {
+      "used": 7330.0,
+      "available": 53200.0,
+      "percent": 13.78
+    },
+    "LUT as Memory": {
+      "used": 3816.0,
+      "available": 17400.0,
+      "percent": 21.93
+    },
+    "Slice Registers": {
+      "used": 2252.0,
+      "available": 106400.0,
+      "percent": 2.12
+    },
+    "Block RAM Tile": {
+      "used": 20.0,
+      "available": 140.0,
+      "percent": 14.29
+    },
+    "DSPs": {
+      "used": 5.0,
+      "available": 220.0,
+      "percent": 2.27
+    }
+  },
+  "before_resources": {
+    "Slice LUTs": {
+      "used": 2727.0,
+      "available": 53200.0,
+      "percent": 5.13
+    },
+    "LUT as Memory": {
+      "used": 62.0,
+      "available": 17400.0,
+      "percent": 0.36
+    },
+    "Slice Registers": {
+      "used": 2071.0,
+      "available": 106400.0,
+      "percent": 1.95
+    },
+    "Block RAM Tile": {
+      "used": 20.0,
+      "available": 140.0,
+      "percent": 14.29
+    },
+    "DSPs": {
+      "used": 8.0,
+      "available": 220.0,
+      "percent": 3.64
+    }
+  },
+  "previous_real_board": {
+    "version": "v5.4",
+    "formal_pairs": 100,
+    "cpu_mean_ms": 4.937352319373523,
+    "arm_pl_mean_ms": 25.422407774224077,
+    "speedup": 0.1942126160205617,
+    "source": "integration/v54-board-benchmark/results.json"
+  },
+  "unchanged": {
+    "arm_elf": true,
+    "cpu_baseline": true,
+    "benchmark_measurement_boundary": true,
+    "model_weights": true,
+    "shifts": true,
+    "pl_clock_50mhz": true,
+    "camera_processing": true
+  },
+  "pending": [
+    "v5.6 initialization and exact logits on board",
+    "v5.6 paired ARM/PL benchmark",
+    "display ghost/brightness/page observation",
+    "camera single/two-digit regression"
+  ],
+  "not_measured": [
+    "v5.6 board speedup",
+    "board power/energy",
+    "CPU availability while offloading"
+  ],
+  "bit_sha256": "722d30d5fdfe73abc19464d2b77715f20277a3ba6f98080198717e94b1f55fa3",
+  "elf_sha256": "97c830045a0e2511ac014b94cca218c015de9f33f22052c6b77114f8d917b008"
+}

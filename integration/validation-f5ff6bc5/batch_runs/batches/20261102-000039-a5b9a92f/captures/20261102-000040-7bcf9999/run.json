@@ -1,0 +1,233 @@
+{
+  "schema": "ees331-vision-run-v1",
+  "status": "completed",
+  "created_utc": "2026-11-01T16:00:40.700983+00:00",
+  "frame_shape": [
+    800,
+    1280
+  ],
+  "frame_png_sha256": "f8b80251403da3e78b56dc54d516104a7af7bec94c217cfbb2ac428eafef1ade",
+  "context": {
+    "mode": "two",
+    "source": {
+      "kind": "file",
+      "filename": "50.png"
+    },
+    "capture_mode": "guided",
+    "strategy": "single",
+    "batch_ticket": {
+      "batch_id": "20261102-000039-a5b9a92f",
+      "index": 2
+    },
+    "display_deferred": true,
+    "channel": "offline",
+    "pc_reference_model_fingerprint": "b4ab5158c4481983b6d9ee3501db27e33142d880ca3f18a50564a22491ceb149"
+  },
+  "samples": [
+    {
+      "folder": "digit_0",
+      "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9",
+      "variants": [
+        {
+          "fit": 20,
+          "folder": "digit_0",
+          "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9"
+        }
+      ]
+    },
+    {
+      "folder": "digit_1",
+      "pixels_sha256": "3dcbc708c4c59b90bf35d411d539bc22d005832e27ce45e6fbf4ef69203233d3",
+      "variants": [
+        {
+          "fit": 20,
+          "folder": "digit_1",
+          "pixels_sha256": "3dcbc708c4c59b90bf35d411d539bc22d005832e27ce45e6fbf4ef69203233d3"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "digit": 5,
+      "where": "PC金标准",
+      "ms": 655.3726000001916,
+      "strategy": "single",
+      "raw_routes": [
+        {
+          "fit": 20,
+          "digit": 5,
+          "logits": [
+            -10208,
+            -1916,
+            -1845,
+            21597,
+            -17938,
+            25070,
+            -5504,
+            -13133,
+            949,
+            -668
+          ],
+          "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9"
+        }
+      ],
+      "fusion_scores": null,
+      "calibrated_probability": false,
+      "display_scores": [
+        -10208,
+        -1916,
+        -1845,
+        21597,
+        -17938,
+        25070,
+        -5504,
+        -13133,
+        949,
+        -668
+      ],
+      "display": {
+        "requested": 50,
+        "ack": null,
+        "verified": false,
+        "deferred": true,
+        "physical_observation_pending": false
+      }
+    },
+    {
+      "digit": 0,
+      "where": "PC金标准",
+      "ms": 295.79820000071777,
+      "strategy": "single",
+      "raw_routes": [
+        {
+          "fit": 20,
+          "digit": 0,
+          "logits": [
+            27469,
+            -15757,
+            4147,
+            -1572,
+            -12376,
+            744,
+            3405,
+            -3587,
+            -4169,
+            -1548
+          ],
+          "pixels_sha256": "3dcbc708c4c59b90bf35d411d539bc22d005832e27ce45e6fbf4ef69203233d3"
+        }
+      ],
+      "fusion_scores": null,
+      "calibrated_probability": false,
+      "display_scores": [
+        27469,
+        -15757,
+        4147,
+        -1572,
+        -12376,
+        744,
+        3405,
+        -3587,
+        -4169,
+        -1548
+      ],
+      "display": {
+        "requested": 50,
+        "ack": null,
+        "verified": false,
+        "deferred": true,
+        "physical_observation_pending": false
+      }
+    }
+  ],
+  "ground_truth": null,
+  "partial_results": [
+    {
+      "digit": 5,
+      "where": "PC金标准",
+      "ms": 655.3726000001916,
+      "strategy": "single",
+      "raw_routes": [
+        {
+          "fit": 20,
+          "digit": 5,
+          "logits": [
+            -10208,
+            -1916,
+            -1845,
+            21597,
+            -17938,
+            25070,
+            -5504,
+            -13133,
+            949,
+            -668
+          ],
+          "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9"
+        }
+      ],
+      "fusion_scores": null,
+      "calibrated_probability": false,
+      "display_scores": [
+        -10208,
+        -1916,
+        -1845,
+        21597,
+        -17938,
+        25070,
+        -5504,
+        -13133,
+        949,
+        -668
+      ]
+    },
+    {
+      "digit": 0,
+      "where": "PC金标准",
+      "ms": 295.79820000071777,
+      "strategy": "single",
+      "raw_routes": [
+        {
+          "fit": 20,
+          "digit": 0,
+          "logits": [
+            27469,
+            -15757,
+            4147,
+            -1572,
+            -12376,
+            744,
+            3405,
+            -3587,
+            -4169,
+            -1548
+          ],
+          "pixels_sha256": "3dcbc708c4c59b90bf35d411d539bc22d005832e27ce45e6fbf4ef69203233d3"
+        }
+      ],
+      "fusion_scores": null,
+      "calibrated_probability": false,
+      "display_scores": [
+        27469,
+        -15757,
+        4147,
+        -1572,
+        -12376,
+        744,
+        3405,
+        -3587,
+        -4169,
+        -1548
+      ]
+    }
+  ],
+  "display": {
+    "requested": 50,
+    "ack": null,
+    "verified": false,
+    "deferred": true,
+    "physical_observation_pending": false
+  },
+  "error": null
+}

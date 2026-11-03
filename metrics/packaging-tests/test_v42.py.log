@@ -1,0 +1,22 @@
+test_auto_without_roi_and_offset_roi (__main__.Regression.test_auto_without_roi_and_offset_roi) ... ok
+test_blank_and_solid_rejected (__main__.Regression.test_blank_and_solid_rejected) ... ok
+test_camera_read_exception_or_changed_shape_fails_closed (__main__.Regression.test_camera_read_exception_or_changed_shape_fails_closed) ... ok
+test_camera_rejected_device_keeps_valid_fallback_open (__main__.Regression.test_camera_rejected_device_keeps_valid_fallback_open) ... ok
+test_cli_selftest_cannot_trigger_initialization (__main__.Regression.test_cli_selftest_cannot_trigger_initialization) ... ok
+test_clipped_input_not_silently_classified (__main__.Regression.test_clipped_input_not_silently_classified) ... ok
+test_hardware_error_no_offline_fallback (__main__.Regression.test_hardware_error_no_offline_fallback) ... ok
+test_initializer_rejects_fake_success (__main__.Regression.test_initializer_rejects_fake_success) ... ok
+test_initializer_reuse_no_inference (__main__.Regression.test_initializer_reuse_no_inference) ... ok
+test_larger_solid_distractor_not_selected (__main__.Regression.test_larger_solid_distractor_not_selected) ... ok
+test_margin_is_not_calibrated_probability (__main__.Regression.test_margin_is_not_calibrated_probability) ... ok
+test_model_frozen_200_logits (__main__.Regression.test_model_frozen_200_logits) ... ok
+test_model_identity_changes_with_weights (__main__.Regression.test_model_identity_changes_with_weights) ... ok
+test_no_middle_split_and_multiple_rejected (__main__.Regression.test_no_middle_split_and_multiple_rejected) ... ok
+test_real_read_failure_never_returns_cached_frame (__main__.Regression.test_real_read_failure_never_returns_cached_frame) ... ok
+test_samples_replay_and_annotation (__main__.Regression.test_samples_replay_and_annotation) ... ok
+test_stereo_auto_selects_first_half_without_duplicate_digit (__main__.Regression.test_stereo_auto_selects_first_half_without_duplicate_digit) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 6.263s
+
+OK

@@ -1,0 +1,192 @@
+{
+  "schema": "ees331-capture-batch-v1",
+  "batch_id": "20261102-175943-6150d682",
+  "created_utc": "2026-11-02T09:59:43.255825+00:00",
+  "state": "completed",
+  "entries": [
+    {
+      "index": 0,
+      "mode": "single",
+      "status": "recognized",
+      "text": "8",
+      "display_text": "08",
+      "run": "../../vision/20261102-180053-86ffc8b4"
+    },
+    {
+      "index": 1,
+      "mode": "single",
+      "status": "recognized",
+      "text": "4",
+      "display_text": "04",
+      "run": "../../vision/20261102-180102-ff5af471"
+    },
+    {
+      "index": 2,
+      "mode": "single",
+      "status": "recognized",
+      "text": "6",
+      "display_text": "06",
+      "run": "../../vision/20261102-180111-f625232b"
+    },
+    {
+      "index": 3,
+      "mode": "two",
+      "status": "error",
+      "error": "左框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-180136-3b2ce34c"
+    },
+    {
+      "index": 4,
+      "mode": "two",
+      "status": "error",
+      "error": "左框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-180138-5a686ae7"
+    },
+    {
+      "index": 5,
+      "mode": "two",
+      "status": "recognized",
+      "text": "26",
+      "display_text": "26",
+      "run": "../../vision/20261102-180141-315b8f7d"
+    },
+    {
+      "index": 6,
+      "mode": "two",
+      "status": "recognized",
+      "text": "84",
+      "display_text": "84",
+      "run": "../../vision/20261102-180154-86999c7d"
+    }
+  ],
+  "pages": [
+    "08 04 06",
+    "26 84   "
+  ],
+  "page_seconds": 5,
+  "display_events": [
+    {
+      "state": "requested",
+      "page_index": 0,
+      "page": "08 04 06",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:01.484131+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 0,
+      "page": "08 04 06",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:01.512720+00:00"
+    },
+    {
+      "state": "requested",
+      "page_index": 1,
+      "page": "26 84   ",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:06.515443+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 1,
+      "page": "26 84   ",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:06.537408+00:00"
+    },
+    {
+      "state": "completed",
+      "page_index": null,
+      "page": null,
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:11.539788+00:00"
+    },
+    {
+      "state": "requested",
+      "page_index": 0,
+      "page": "08 04 06",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:12.763120+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 0,
+      "page": "08 04 06",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:12.816185+00:00"
+    },
+    {
+      "state": "requested",
+      "page_index": 1,
+      "page": "26 84   ",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:17.819346+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 1,
+      "page": "26 84   ",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:17.852521+00:00"
+    },
+    {
+      "state": "completed",
+      "page_index": null,
+      "page": null,
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T10:02:22.854753+00:00"
+    }
+  ],
+  "playback_state": "completed",
+  "display_contract": "8 cells: DD space DD space DD; single digits zero-padded",
+  "values": [
+    "8",
+    "4",
+    "6",
+    "26",
+    "84"
+  ],
+  "full_text": "08 04 06 26 84",
+  "digit_count": 7,
+  "page_count": 2,
+  "finished_utc": "2026-11-02T10:02:01.480335+00:00"
+}

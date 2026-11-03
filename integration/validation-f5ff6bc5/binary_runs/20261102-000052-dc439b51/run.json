@@ -1,0 +1,136 @@
+{
+  "schema": "ees331-vision-run-v1",
+  "status": "completed",
+  "created_utc": "2026-11-01T16:00:52.197996+00:00",
+  "frame_shape": [
+    800,
+    1280,
+    3
+  ],
+  "frame_png_sha256": "2fe5f89832266a6bf49d0c09f269fad891624693465f01e9174ec7415d3b9a44",
+  "context": {
+    "mode": "single",
+    "roi_xywh": null,
+    "source": {
+      "kind": "file",
+      "filename": "合成输入_5.png"
+    },
+    "requested_channel": "offline",
+    "pc_reference_model_fingerprint": "b4ab5158c4481983b6d9ee3501db27e33142d880ca3f18a50564a22491ceb149",
+    "hardware_model_attested": false,
+    "strategy": "single",
+    "capture_mode": "guided",
+    "compare_models": false
+  },
+  "samples": [
+    {
+      "folder": "digit_0",
+      "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9",
+      "variants": [
+        {
+          "fit": 20,
+          "folder": "digit_0",
+          "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "digit": 5,
+      "where": "PC金标准",
+      "ms": 292.4570999985008,
+      "strategy": "single",
+      "raw_routes": [
+        {
+          "fit": 20,
+          "digit": 5,
+          "logits": [
+            -10208,
+            -1916,
+            -1845,
+            21597,
+            -17938,
+            25070,
+            -5504,
+            -13133,
+            949,
+            -668
+          ],
+          "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9"
+        }
+      ],
+      "fusion_scores": null,
+      "calibrated_probability": false,
+      "display_scores": [
+        -10208,
+        -1916,
+        -1845,
+        21597,
+        -17938,
+        25070,
+        -5504,
+        -13133,
+        949,
+        -668
+      ],
+      "display": {
+        "requested": 5,
+        "ack": null,
+        "verified": false,
+        "deferred": false,
+        "physical_observation_pending": false
+      }
+    }
+  ],
+  "ground_truth": "5",
+  "partial_results": [
+    {
+      "digit": 5,
+      "where": "PC金标准",
+      "ms": 292.4570999985008,
+      "strategy": "single",
+      "raw_routes": [
+        {
+          "fit": 20,
+          "digit": 5,
+          "logits": [
+            -10208,
+            -1916,
+            -1845,
+            21597,
+            -17938,
+            25070,
+            -5504,
+            -13133,
+            949,
+            -668
+          ],
+          "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9"
+        }
+      ],
+      "fusion_scores": null,
+      "calibrated_probability": false,
+      "display_scores": [
+        -10208,
+        -1916,
+        -1845,
+        21597,
+        -17938,
+        25070,
+        -5504,
+        -13133,
+        949,
+        -668
+      ]
+    }
+  ],
+  "display": {
+    "requested": 5,
+    "ack": null,
+    "verified": false,
+    "deferred": false,
+    "physical_observation_pending": false
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "hardware_accessed": false,
+  "exe_sha256": "e92846ceeef3c7af11c6251f431136e6dc19533ff1e8f53127be8bce7fe0d77b",
+  "source_and_exe_match_build": true,
+  "resources_and_packaged_resources_match": true,
+  "original_source_package_payload_matches_v52": true,
+  "pl_files_unchanged_outside_declared_display_conv_and_test_edits": 109,
+  "all_pl_source_matches_implemented_mirror": true,
+  "deployment_bit_matches_vivado_build": true,
+  "hardware_verification_pending": true
+}

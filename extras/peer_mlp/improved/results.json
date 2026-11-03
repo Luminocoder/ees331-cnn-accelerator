@@ -1,0 +1,18 @@
+{
+  "clean_test": {
+    "main-784-256-128": 0.9863,
+    "big-784-512-256": 0.9898
+  },
+  "drawn_like_test": {
+    "main-784-256-128": 0.8615,
+    "big-784-512-256": 0.8879
+  },
+  "old_weights": {
+    "clean": 0.9818,
+    "drawn_like": 0.7026
+  },
+  "best_epochs": {
+    "main": 29,
+    "big": 34
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "BUILD_PASS_NOT_BOARD_TESTED",
+  "hardware_accessed": false,
+  "work_directory": "D:\\aic\\ees331-page-20261101-234400-9eb3c39b",
+  "steps": [
+    {
+      "name": "conv_pipeline_tb-compile",
+      "exit_code": 0,
+      "passed": true,
+      "log": "conv_pipeline_tb-compile.log"
+    },
+    {
+      "name": "conv_pipeline_tb-elaborate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "conv_pipeline_tb-elaborate.log"
+    },
+    {
+      "name": "conv_pipeline_tb-simulate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "conv_pipeline_tb-simulate.log"
+    },
+    {
+      "name": "conv_bias_tb-compile",
+      "exit_code": 0,
+      "passed": true,
+      "log": "conv_bias_tb-compile.log"
+    },
+    {
+      "name": "conv_bias_tb-elaborate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "conv_bias_tb-elaborate.log"
+    },
+    {
+      "name": "conv_bias_tb-simulate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "conv_bias_tb-simulate.log"
+    },
+    {
+      "name": "sevenseg_page_tb-compile",
+      "exit_code": 0,
+      "passed": true,
+      "log": "sevenseg_page_tb-compile.log"
+    },
+    {
+      "name": "sevenseg_page_tb-elaborate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "sevenseg_page_tb-elaborate.log"
+    },
+    {
+      "name": "sevenseg_page_tb-simulate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "sevenseg_page_tb-simulate.log"
+    },
+    {
+      "name": "mnist_soc_top_tb-compile",
+      "exit_code": 0,
+      "passed": true,
+      "log": "mnist_soc_top_tb-compile.log"
+    },
+    {
+      "name": "mnist_soc_top_tb-elaborate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "mnist_soc_top_tb-elaborate.log"
+    },
+    {
+      "name": "mnist_soc_top_tb-simulate",
+      "exit_code": 0,
+      "passed": true,
+      "log": "mnist_soc_top_tb-simulate.log"
+    },
+    {
+      "name": "bitstream",
+      "exit_code": 0,
+      "passed": true,
+      "log": "bitstream.log"
+    }
+  ],
+  "outputs": {
+    "system.bit": "722d30d5fdfe73abc19464d2b77715f20277a3ba6f98080198717e94b1f55fa3",
+    "system.xsa": "c544eae1bc42425a63559ec3f146f759806ac45f2c00e658efd532a91240bce4"
+  }
+}

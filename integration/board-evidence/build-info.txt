@@ -1,0 +1,11 @@
+tool=2025.1
+stage=bitstream
+board=ees331-rev1-v1
+part=xc7z020clg484-1
+board_confirmed=1
+clock_mhz=50
+base=0x43C00000
+range=65536
+weights=baked
+interrupt=polling
+ps_properties_audited=46

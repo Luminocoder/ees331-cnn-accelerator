@@ -1,0 +1,333 @@
+{
+  "hardware_accessed": false,
+  "input_reprocessed": false,
+  "model_fingerprint": "b4ab5158c4481983b6d9ee3501db27e33142d880ca3f18a50564a22491ceb149",
+  "correct_digits": 9,
+  "total_digits": 9,
+  "mlp_correct_digits": {},
+  "rejected_labelled_runs": [],
+  "confusion_true_rows_pred_columns": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "four_as_nine": 0,
+  "nine_as_four": 0,
+  "samples": [
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000052-9e634a4d",
+      "index": 0,
+      "label": 4,
+      "pred": 4,
+      "pixels_sha256": "a12f5827a382d1a740d6a69ff4731ec1f6d2d6db1e4a41a0508c6f8dcff0a281",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -16681,
+          -2593,
+          1913,
+          -828,
+          26856,
+          -11124,
+          -4618,
+          1106,
+          1655,
+          2120
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000052-dc439b51",
+      "index": 0,
+      "label": 5,
+      "pred": 5,
+      "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -10208,
+          -1916,
+          -1845,
+          21597,
+          -17938,
+          25070,
+          -5504,
+          -13133,
+          949,
+          -668
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000053-fc169f36",
+      "index": 0,
+      "label": 9,
+      "pred": 9,
+      "pixels_sha256": "f29d2d0d0dfa2a9974bae1fe6fe5ac21c52d1d2fa8e3b94a8e3cb4164905af78",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -8314,
+          -4157,
+          -13527,
+          3959,
+          8415,
+          -2735,
+          -16710,
+          4333,
+          5862,
+          16733
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000054-05b5b40c",
+      "index": 0,
+      "label": 8,
+      "pred": 8,
+      "pixels_sha256": "a2400ca4ea3fe110753b532bd8a5e114c74cc2eac9f41827a130aebba4844015",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -3064,
+          -5551,
+          -7741,
+          6314,
+          -1654,
+          2389,
+          -302,
+          -13051,
+          15896,
+          2166
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000054-35745d51",
+      "index": 0,
+      "label": 5,
+      "pred": 5,
+      "pixels_sha256": "70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -10208,
+          -1916,
+          -1845,
+          21597,
+          -17938,
+          25070,
+          -5504,
+          -13133,
+          949,
+          -668
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000054-35745d51",
+      "index": 1,
+      "label": 0,
+      "pred": 0,
+      "pixels_sha256": "3dcbc708c4c59b90bf35d411d539bc22d005832e27ce45e6fbf4ef69203233d3",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          27469,
+          -15757,
+          4147,
+          -1572,
+          -12376,
+          744,
+          3405,
+          -3587,
+          -4169,
+          -1548
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000055-0f9c94b0",
+      "index": 0,
+      "label": 8,
+      "pred": 8,
+      "pixels_sha256": "81d2952a7eb495d7f98db6ebbeed8c9070cf9070e8f9bdeaffc2365f491c0965",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -5216,
+          -4661,
+          -8057,
+          6136,
+          -1013,
+          3695,
+          147,
+          -11830,
+          14209,
+          1952
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000056-cbd92729",
+      "index": 0,
+      "label": 8,
+      "pred": 8,
+      "pixels_sha256": "9900ddd703c99043362f9d39805d95f06bae9b73b69c06c3b86f81ed5dac65d7",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          785,
+          -2912,
+          -5982,
+          13150,
+          -10148,
+          2345,
+          -9165,
+          -11926,
+          18092,
+          1978
+        ]
+      ]
+    },
+    {
+      "run": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000057-759f4245",
+      "index": 0,
+      "label": 3,
+      "pred": 3,
+      "pixels_sha256": "7d0374828d054bc4a4827874476a12f4532119b5997d7af7144a714ace417eea",
+      "strategy": "single",
+      "raw_route_logits": [
+        [
+          -16430,
+          2013,
+          -6886,
+          35669,
+          -14557,
+          9445,
+          -21941,
+          1092,
+          1756,
+          3525
+        ]
+      ]
+    }
+  ]
+}

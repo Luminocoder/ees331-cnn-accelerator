@@ -1,0 +1,10 @@
+{
+  "native_tk_created": true,
+  "actual_cpu_c": true,
+  "mmio_and_ticks_emulated": true,
+  "full_130_pair_flow_passed": true,
+  "cancel_and_restore_passed": true,
+  "camera_opened": false,
+  "hardware_accessed": false,
+  "hardware_speedup": null
+}

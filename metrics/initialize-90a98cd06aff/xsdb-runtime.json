@@ -1,0 +1,12 @@
+{
+  "status": "XSDB_RUNTIME_PASS",
+  "hardware_accessed": false,
+  "vivado": "D:\\2025.1\\Vivado",
+  "workspace": "D:\\aic\\ees331-v5-runs\\runtime-6788f50383c640c39c6d1503be87564e",
+  "frozen_parent": true,
+  "dll_search_isolated": true,
+  "previous_dll_directory": "C:\\Users\\\u8d39\u6d69\u8f69\\Desktop\\V5\u7edf\u5408\u7248\\EES331_Studio_v5.6_convfast_candidate_20261101\\_internal",
+  "dll_directory_restored": true,
+  "exit_code": 0,
+  "marker": "V5_XSDB_RUNTIME_PASS Tcl=8.6.13"
+}

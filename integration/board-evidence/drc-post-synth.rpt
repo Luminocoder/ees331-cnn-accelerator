@@ -1,0 +1,113 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Sun Nov  1 23:50:26 2026
+| Host         : lumino running 64-bit major release  (build 9200)
+| Command      : report_drc -ruledecks default -no_waivers -file D:/aic/ees331-page-20261101-234400-9eb3c39b/board-output/drc-post-synth.rpt
+| Design       : system_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 15
++--------+----------+------------------------+--------+
+| Rule   | Severity | Description            | Checks |
++--------+----------+------------------------+--------+
+| DPIP-1 | Warning  | Input pipelining       | 9      |
+| DPOP-1 | Warning  | PREG Output pipelining | 3      |
+| DPOP-2 | Warning  | MREG Output pipelining | 3      |
++--------+----------+------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-1#1 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_conv/input_length_reg input system_i/mnist_accel_0/inst/u_accel/u_conv/input_length_reg/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_conv/input_length_reg input system_i/mnist_accel_0/inst/u_accel/u_conv/input_length_reg/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_fc/w_b_addr0 input system_i/mnist_accel_0/inst/u_accel/u_fc/w_b_addr0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_fc/w_b_addr2 input system_i/mnist_accel_0/inst/u_accel/u_fc/w_b_addr2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c input system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c input system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c input system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0 input system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0 input system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_fc/w_b_addr0 output system_i/mnist_accel_0/inst/u_accel/u_fc/w_b_addr0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c output system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0 output system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_conv/input_length_reg multiplier stage system_i/mnist_accel_0/inst/u_accel/u_conv/input_length_reg/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c multiplier stage system_i/mnist_accel_0/inst/u_accel/u_pool/base_addr_c/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0 multiplier stage system_i/mnist_accel_0/inst/u_accel/u_pool/out_base_addr_c0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+

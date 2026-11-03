@@ -1,0 +1,97 @@
+{
+  "label_source": "visual review of source photographs; 8 confusion reported by user; development regressions, not independent accuracy evaluation",
+  "cases": [
+    {
+      "file": "20261031-224146-2e1d6c35.png",
+      "expected": "8",
+      "capture_mode": "guided",
+      "mode": "single",
+      "roi": null,
+      "previous_prediction": "3",
+      "original_frame_sha256": "eddbabbb20196c18f12a3d47381a24a318f28e02a8cf8090b53fe62738581859",
+      "old_logits": [
+        [
+          -4123,
+          -6890,
+          -12540,
+          11873,
+          -312,
+          7653,
+          -2131,
+          -8281,
+          5214,
+          4503
+        ]
+      ]
+    },
+    {
+      "file": "20261031-224159-806b0a9f.png",
+      "expected": "8",
+      "capture_mode": "guided",
+      "mode": "single",
+      "roi": null,
+      "previous_prediction": "3",
+      "original_frame_sha256": "c4f22e5e5f0c0e4e8ba9d7d0f4565b87193786a9d8018e6ad58d958a4804da87",
+      "old_logits": [
+        [
+          -4409,
+          -6599,
+          -11456,
+          10241,
+          -519,
+          7385,
+          -640,
+          -7547,
+          5287,
+          3592
+        ]
+      ]
+    },
+    {
+      "file": "20261031-224700-2ce314bc.png",
+      "expected": "8",
+      "capture_mode": "auto",
+      "mode": "single",
+      "roi": null,
+      "previous_prediction": "3",
+      "original_frame_sha256": "147bec97cf06d91300d7678d73267cd4988396efde124cb177a52eec1d5f9b59",
+      "old_logits": [
+        [
+          1995,
+          -5206,
+          -5157,
+          14182,
+          -7072,
+          4387,
+          -3174,
+          -16122,
+          11694,
+          695
+        ]
+      ]
+    },
+    {
+      "file": "20261031-223929-7692b1aa.png",
+      "expected": "3",
+      "capture_mode": "guided",
+      "mode": "single",
+      "roi": null,
+      "previous_prediction": "3",
+      "original_frame_sha256": "ab1446e1c556a926439945511d51616f6ce2bad1083a5f75b4c109294099075b",
+      "old_logits": [
+        [
+          -17526,
+          4169,
+          -5137,
+          37905,
+          -14750,
+          6971,
+          -22139,
+          2598,
+          815,
+          1599
+        ]
+      ]
+    }
+  ]
+}

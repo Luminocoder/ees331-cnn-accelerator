@@ -1,0 +1,153 @@
+{
+  "version": "5.6-convfast-candidate",
+  "date": "2026-11-02",
+  "work_batch": "2026-11-01",
+  "status": "OFFLINE_BUILD_REGRESSION_PASS_REAL_BOARD_ACCEPTANCE_PENDING",
+  "entrypoint": "EES331_Studio.exe",
+  "instructions": "README.md",
+  "findings": "优化说明与验收_20261101.md",
+  "hardware_accessed": false,
+  "camera_opened": false,
+  "jtag_accessed": false,
+  "flash_or_sd_written": false,
+  "observed_serial_ports": [
+    "COM3",
+    "COM4"
+  ],
+  "COM5_present_at_readonly_enumeration": false,
+  "exe_sha256": "e92846ceeef3c7af11c6251f431136e6dc19533ff1e8f53127be8bce7fe0d77b",
+  "bit_sha256": "722d30d5fdfe73abc19464d2b77715f20277a3ba6f98080198717e94b1f55fa3",
+  "elf_sha256": "97c830045a0e2511ac014b94cca218c015de9f33f22052c6b77114f8d917b008",
+  "hardware_board_speedup": null,
+  "actual_implementation_changes": {
+    "ref_model/test_vectors/conv_extra_images.hex": {
+      "before_sha256": null,
+      "after_sha256": "d06a23ec7d89d5ebb89cff23711bfe9ede30a3f79a8d53954c0a9f1c7540ade2"
+    },
+    "ref_model/test_vectors/conv_extra_labels.hex": {
+      "before_sha256": null,
+      "after_sha256": "880578cc7480d43915e7e93e0b5d9708186b2955fd5dc268c8173ebfc3011a2f"
+    },
+    "ref_model/test_vectors/conv_extra_logits.hex": {
+      "before_sha256": null,
+      "after_sha256": "d71b7e094988b5c1fd672210ab950c0ecd26f258c7fd508f429aa7a02492e02e"
+    },
+    "rtl/accelerator/conv_bias_tb.sv": {
+      "before_sha256": "1f2d30eae79b521332262895460a9cb1e7c265cf48b11ad2aca0012eebeed6d3",
+      "after_sha256": "2b305c2e4376af7183c86b834851ac4e844cdb286cfc07c5812cbaf849e7da8f"
+    },
+    "rtl/accelerator/conv_engine.sv": {
+      "before_sha256": "3637cd5a7acaf20f27234ebf3790d1ebbdf39d927e46e581041b55aa44dc599c",
+      "after_sha256": "21e3cef67d9df70c90067bbd2807bad1545e6667d55c9ba998b18a8a0c61a2a1"
+    },
+    "rtl/soc/mnist_soc_top_tb.sv": {
+      "before_sha256": "18563a8f3d604c2708da6dc4ea4018fecfef95da61a3ce47703b794d4a5599ec",
+      "after_sha256": "cc7aa5491e81776a1ec2bf3a9ead41773e67344d3dbcc7af4dfbbfbe6cddfc5d"
+    }
+  },
+  "preserved": {
+    "arm_source_and_elf_exactly_equal_v55": true,
+    "pc_source_equal_except_version_label": true,
+    "display_ghost_suppression_equal_v55": true,
+    "model_and_quantization": true,
+    "benchmark_protocol_and_cpu_baseline": true,
+    "pl_50mhz": true
+  },
+  "checks": {
+    "source_regressions_passed": 74,
+    "actual_exe_offline_logits_matched": 200,
+    "actual_exe_images_batch_tensor_replay_and_benchmark_cli_guards": "PASS",
+    "rtl_frozen_logits_matched": 200,
+    "rtl_extra_logits_matched": 50,
+    "rtl_scalar_conv_outputs_matched": 28833,
+    "rtl_preload_and_run_reset_recovery": true,
+    "rtl_soc_reset_recovery": true,
+    "rtl_display_deadtime_and_blank_cells": "PASS; electrical ghost acceptance pending",
+    "new_bitstream_and_xsa_build": "PASS",
+    "post_route_timing": {
+      "wns_ns": 3.864,
+      "tns_ns": 0.0,
+      "whs_ns": 0.034,
+      "ths_ns": 0.0
+    },
+    "tk_benchmark_cancel_restore": "PASS; MMIO/time emulated",
+    "tk_pages_interval_seconds": 5.017632699999012,
+    "original_v55_integrity": "PASS; 1513 sealed files; read-only audit"
+  },
+  "rtl_simulation_comparison": {
+    "before_busy_cycles": 1256726,
+    "after_busy_cycles": 103092,
+    "before_busy_ms": 25.13452,
+    "after_busy_ms": 2.06184,
+    "busy_cycle_improvement": 12.190334846544834,
+    "includes_per_layer_cache_preload": true
+  },
+  "simulation_is_not_real_board_measurement": true,
+  "resources": {
+    "Slice LUTs": {
+      "used": 7330.0,
+      "available": 53200.0,
+      "percent": 13.78
+    },
+    "LUT as Memory": {
+      "used": 3816.0,
+      "available": 17400.0,
+      "percent": 21.93
+    },
+    "Slice Registers": {
+      "used": 2252.0,
+      "available": 106400.0,
+      "percent": 2.12
+    },
+    "Block RAM Tile": {
+      "used": 20.0,
+      "available": 140.0,
+      "percent": 14.29
+    },
+    "DSPs": {
+      "used": 5.0,
+      "available": 220.0,
+      "percent": 2.27
+    }
+  },
+  "previous_real_board": {
+    "version": "v5.4",
+    "formal_pairs": 100,
+    "cpu_mean_ms": 4.937352319373523,
+    "arm_pl_mean_ms": 25.422407774224077,
+    "speedup": 0.1942126160205617,
+    "source": "integration/v54-board-benchmark/results.json"
+  },
+  "drc": {
+    "errors": 0,
+    "warnings": {
+      "DPIP-1": 9,
+      "DPOP-1": 3,
+      "DPOP-2": 3,
+      "PDCN-137": 16
+    },
+    "note": "DSP pipelining and BRAM cascade tie-off warnings preserved in original report"
+  },
+  "evidence": {
+    "validation": "integration/validation-f5ff6bc5/delivery_validation.json",
+    "implementation": "integration/board-build.json",
+    "source_hashes": "integration/pl-implementation-hashes.json",
+    "rtl_logs_and_vivado_reports": "integration/board-evidence/",
+    "optimization": "integration/optimization-results.json",
+    "gui": "integration/benchmark-gui.json",
+    "pages": "integration/board-pages-gui.json",
+    "previous_real_board": "integration/v54-board-benchmark/results.json"
+  },
+  "not_measured": [
+    "v5.6 board performance",
+    "board power/energy",
+    "CPU availability/concurrent throughput"
+  ],
+  "pending": [
+    "Initialize this candidate on real board and verify exact logits",
+    "Run original paired ARM/PL benchmark twice and retain complete logs",
+    "Observe display blank cells/ghost/brightness/order/5-second pages",
+    "Regress camera single/two-digit and batch capture",
+    "Insert actual new benchmark and conditions into report; retain old negative measurement"
+  ]
+}

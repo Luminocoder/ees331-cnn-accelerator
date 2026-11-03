@@ -1,0 +1,118 @@
+{
+  "schema": "ees331-capture-batch-v1",
+  "batch_id": "20261102-000039-a5b9a92f",
+  "created_utc": "2026-11-01T16:00:39.556627+00:00",
+  "state": "completed",
+  "entries": [
+    {
+      "index": 0,
+      "mode": "single",
+      "status": "recognized",
+      "text": "1",
+      "display_text": "01",
+      "run": "captures/20261102-000039-5a918795"
+    },
+    {
+      "index": 1,
+      "mode": "single",
+      "status": "recognized",
+      "text": "2",
+      "display_text": "02",
+      "run": "captures/20261102-000040-c1f42d05"
+    },
+    {
+      "index": 2,
+      "mode": "two",
+      "status": "recognized",
+      "text": "50",
+      "display_text": "50",
+      "run": "captures/20261102-000040-7bcf9999"
+    },
+    {
+      "index": 3,
+      "mode": "single",
+      "status": "recognized",
+      "text": "9",
+      "display_text": "09",
+      "run": "captures/20261102-000041-9d5f7679"
+    },
+    {
+      "index": 4,
+      "mode": "single",
+      "status": "recognized",
+      "text": "0",
+      "display_text": "00",
+      "run": "captures/20261102-000042-ba749fc7"
+    },
+    {
+      "index": 5,
+      "mode": "single",
+      "status": "recognized",
+      "text": "8",
+      "display_text": "08",
+      "run": "captures/20261102-000042-416a44ad"
+    },
+    {
+      "index": 6,
+      "mode": "single",
+      "status": "recognized",
+      "text": "1",
+      "display_text": "01",
+      "run": "captures/20261102-000042-221c36b5"
+    },
+    {
+      "index": 7,
+      "mode": "single",
+      "status": "recognized",
+      "text": "2",
+      "display_text": "02",
+      "run": "captures/20261102-000043-89cfe3d1"
+    }
+  ],
+  "pages": [
+    "01 02 50",
+    "09 00 08",
+    "01 02   "
+  ],
+  "page_seconds": 5,
+  "display_events": [],
+  "playback_state": "not_started",
+  "display_contract": "8 cells: DD space DD space DD; single digits zero-padded",
+  "values": [
+    "1",
+    "2",
+    "50",
+    "9",
+    "0",
+    "8",
+    "1",
+    "2"
+  ],
+  "full_text": "01 02 50 09 00 08 01 02",
+  "digit_count": 9,
+  "page_count": 3,
+  "finished_utc": "2026-11-01T16:00:43.321912+00:00",
+  "playback_plan": [
+    {
+      "page_index": 0,
+      "text": "01 02 50",
+      "start_seconds": 0,
+      "duration_seconds": 5,
+      "hardware_verified": false
+    },
+    {
+      "page_index": 1,
+      "text": "09 00 08",
+      "start_seconds": 5,
+      "duration_seconds": 5,
+      "hardware_verified": false
+    },
+    {
+      "page_index": 2,
+      "text": "01 02   ",
+      "start_seconds": 10,
+      "duration_seconds": 5,
+      "hardware_verified": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-233719-fa93cc42/source/rtl/accelerator/buffers.v" into library work
+INFO: [VRFC 10-311] analyzing module weight_bram
+INFO: [VRFC 10-311] analyzing module fm_bram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-233719-fa93cc42/source/rtl/accelerator/mac_array.sv" into library work
+INFO: [VRFC 10-311] analyzing module mac_array
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-233719-fa93cc42/source/rtl/accelerator/conv_engine.sv" into library work
+INFO: [VRFC 10-311] analyzing module conv_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-233719-fa93cc42/tests/conv_pipeline_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module conv_pipeline_tb

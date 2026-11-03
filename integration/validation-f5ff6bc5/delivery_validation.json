@@ -1,0 +1,320 @@
+{
+  "hardware_accessed": false,
+  "camera_opened": false,
+  "source_tests": [
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_v42.py"
+      ],
+      "exit_code": 0,
+      "output": "test_auto_without_roi_and_offset_roi (__main__.Regression.test_auto_without_roi_and_offset_roi) ... ok\r\ntest_blank_and_solid_rejected (__main__.Regression.test_blank_and_solid_rejected) ... ok\r\ntest_camera_read_exception_or_changed_shape_fails_closed (__main__.Regression.test_camera_read_exception_or_changed_shape_fails_closed) ... ok\r\ntest_camera_rejected_device_keeps_valid_fallback_open (__main__.Regression.test_camera_rejected_device_keeps_valid_fallback_open) ... ok\r\ntest_cli_selftest_cannot_trigger_initialization (__main__.Regression.test_cli_selftest_cannot_trigger_initialization) ... ok\r\ntest_clipped_input_not_silently_classified (__main__.Regression.test_clipped_input_not_silently_classified) ... ok\r\ntest_hardware_error_no_offline_fallback (__main__.Regression.test_hardware_error_no_offline_fallback) ... ok\r\ntest_initializer_rejects_fake_success (__main__.Regression.test_initializer_rejects_fake_success) ... ok\r\ntest_initializer_reuse_no_inference (__main__.Regression.test_initializer_reuse_no_inference) ... ok\r\ntest_larger_solid_distractor_not_selected (__main__.Regression.test_larger_solid_distractor_not_selected) ... ok\r\ntest_margin_is_not_calibrated_probability (__main__.Regression.test_margin_is_not_calibrated_probability) ... ok\r\ntest_model_frozen_200_logits (__main__.Regression.test_model_frozen_200_logits) ... ok\r\ntest_model_identity_changes_with_weights (__main__.Regression.test_model_identity_changes_with_weights) ... ok\r\ntest_no_middle_split_and_multiple_rejected (__main__.Regression.test_no_middle_split_and_multiple_rejected) ... ok\r\ntest_real_read_failure_never_returns_cached_frame (__main__.Regression.test_real_read_failure_never_returns_cached_frame) ... ok\r\ntest_samples_replay_and_annotation (__main__.Regression.test_samples_replay_and_annotation) ... ok\r\ntest_stereo_auto_selects_first_half_without_duplicate_digit (__main__.Regression.test_stereo_auto_selects_first_half_without_duplicate_digit) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 17 tests in 5.970s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_v5.py"
+      ],
+      "exit_code": 0,
+      "output": "test_board_acceptance_simulation_and_mismatch_detection (__main__.Integration.test_board_acceptance_simulation_and_mismatch_detection) ... ok\r\ntest_default_is_original_single_scale_without_comparison (__main__.Integration.test_default_is_original_single_scale_without_comparison) ... ok\r\ntest_display_crc_and_packet_contract (__main__.Integration.test_display_crc_and_packet_contract) ... ok\r\ntest_init_requires_hello_and_display_not_only_deploy (__main__.Integration.test_init_requires_hello_and_display_not_only_deploy) ... ok\r\ntest_nonhardware_modes_reject_board_acceptance (__main__.Integration.test_nonhardware_modes_reject_board_acceptance) ... ok\r\ntest_normalization_matches_original_v29_oracle (__main__.Integration.test_normalization_matches_original_v29_oracle) ... ok\r\ntest_original_guarded_bringup_is_unchanged (__main__.Integration.test_original_guarded_bringup_is_unchanged) ... ok\r\ntest_retired_models_cannot_enter_live_inference (__main__.Integration.test_retired_models_cannot_enter_live_inference) ... ok\r\ntest_two_digits_two_images_one_combined_display_and_saved_inputs (__main__.Integration.test_two_digits_two_images_one_combined_display_and_saved_inputs) ... ok\r\ntest_wrong_display_ack_fails (__main__.Integration.test_wrong_display_ack_fails) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 10 tests in 6.291s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_native_runtime.py"
+      ],
+      "exit_code": 0,
+      "output": "test_deploy_aborts_before_hardware_server_if_runtime_fails (__main__.NativeRuntime.test_deploy_aborts_before_hardware_server_if_runtime_fails) ... ok\r\ntest_initialization_reopens_uart_before_hello_and_closes_both_handles (__main__.NativeRuntime.test_initialization_reopens_uart_before_hello_and_closes_both_handles) ... ok\r\ntest_process_creation_clears_and_restores_dll_directory_even_on_failure (__main__.NativeRuntime.test_process_creation_clears_and_restores_dll_directory_even_on_failure) ... ok\r\ntest_runtime_cli_rejects_hardware_combination (__main__.NativeRuntime.test_runtime_cli_rejects_hardware_combination) ... ok\r\ntest_runtime_requires_real_success_marker_and_has_no_hardware_commands (__main__.NativeRuntime.test_runtime_requires_real_success_marker_and_has_no_hardware_commands) ... ok\r\ntest_vendor_environment_excludes_bundle_tcl_and_path (__main__.NativeRuntime.test_vendor_environment_excludes_bundle_tcl_and_path) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 6 tests in 0.095s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_demo.py"
+      ],
+      "exit_code": 0,
+      "output": "test_background_outside_guide_does_not_enter_tensor (__main__.Demo.test_background_outside_guide_does_not_enter_tensor) ... ok\r\ntest_clipped_stroke_at_guide_edge_is_rejected (__main__.Demo.test_clipped_stroke_at_guide_edge_is_rejected) ... ok\r\ntest_demo_retains_original_camera_roi_and_disjoint_pair (__main__.Demo.test_demo_retains_original_camera_roi_and_disjoint_pair) ... ok\r\ntest_empty_second_guide_rejects_whole_pair (__main__.Demo.test_empty_second_guide_rejects_whole_pair) ... ok\r\ntest_guided_extraction_is_original_with_explicit_center_refinement (__main__.Demo.test_guided_extraction_is_original_with_explicit_center_refinement) ... ok\r\ntest_two_guides_are_left_to_right_and_classify_independently (__main__.Demo.test_two_guides_are_left_to_right_and_classify_independently) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 6 tests in 0.995s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_preview.py"
+      ],
+      "exit_code": 0,
+      "output": "test_failure_and_blank_clear_previous_boxes (__main__.Preview.test_failure_and_blank_clear_previous_boxes) ... ok\r\ntest_late_frame_is_discarded (__main__.Preview.test_late_frame_is_discarded) ... ok\r\ntest_live_boxes_match_capture_without_inference_uart_or_logs (__main__.Preview.test_live_boxes_match_capture_without_inference_uart_or_logs) ... ok\r\ntest_one_worker_snapshot_and_no_backlog_even_after_invalidation (__main__.Preview.test_one_worker_snapshot_and_no_backlog_even_after_invalidation) ... ok\r\ntest_partial_pair_has_live_box_but_still_cannot_be_recognized (__main__.Preview.test_partial_pair_has_live_box_but_still_cannot_be_recognized) ... ok\r\ntest_rate_limit_and_box_expiration (__main__.Preview.test_rate_limit_and_box_expiration) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 6 tests in 0.696s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_camera_center.py"
+      ],
+      "exit_code": 0,
+      "output": "test_boundary_foreground_is_not_clipped_and_empty_is_rejected (__main__.Center.test_boundary_foreground_is_not_clipped_and_empty_is_rejected) ... ok\r\ntest_camera_eights_and_real_three (__main__.Center.test_camera_eights_and_real_three) ... ok\r\ntest_center_is_subpixel_and_close_to_fourteen (__main__.Center.test_center_is_subpixel_and_close_to_fourteen) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 2.815s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_batch.py"
+      ],
+      "exit_code": 0,
+      "output": "test_blank_cells_have_no_lit_segment (__main__.Batch.test_blank_cells_have_no_lit_segment) ... ok\r\ntest_hardware_inference_can_be_collected_without_immediate_display (__main__.Batch.test_hardware_inference_can_be_collected_without_immediate_display) ... ok\r\ntest_manifest_cli_rejects_hardware_or_other_actions (__main__.Batch.test_manifest_cli_rejects_hardware_or_other_actions) ... ok\r\ntest_more_than_eight_digits_remain_complete_and_failures_keep_order (__main__.Batch.test_more_than_eight_digits_remain_complete_and_failures_keep_order) ... ok\r\ntest_offline_manifest_mixes_modes_and_continues_after_error (__main__.Batch.test_offline_manifest_mixes_modes_and_continues_after_error) ... ok\r\ntest_page_is_held_for_exactly_five_seconds_including_last_page (__main__.Batch.test_page_is_held_for_exactly_five_seconds_including_last_page) ... ok\r\ntest_pending_duplicate_and_old_batch_results_cannot_be_committed (__main__.Batch.test_pending_duplicate_and_old_batch_results_cannot_be_committed) ... ok\r\ntest_stop_and_replay_cannot_be_advanced_by_old_callbacks (__main__.Batch.test_stop_and_replay_cannot_be_advanced_by_old_callbacks) ... ok\r\ntest_three_pairs_with_true_blank_separators_and_zero_padding (__main__.Batch.test_three_pairs_with_true_blank_separators_and_zero_padding) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 9 tests in 1.866s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_display_transport.py"
+      ],
+      "exit_code": 0,
+      "output": "........\r\n----------------------------------------------------------------------\r\nRan 8 tests in 0.002s\r\n\r\nOK\r\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\test_arm_benchmark.py"
+      ],
+      "exit_code": 0,
+      "output": ".........\r\n----------------------------------------------------------------------\r\nRan 9 tests in 2.227s\r\n\r\nOK\r\n"
+    }
+  ],
+  "exe_sha256": "e92846ceeef3c7af11c6251f431136e6dc19533ff1e8f53127be8bce7fe0d77b",
+  "selftest": {
+    "argv": [
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+      "--selftest"
+    ],
+    "exit_code": 0,
+    "output": "  img_00 真值=5 预测=5 OK\r\n  img_01 真值=0 预测=0 OK\r\n  img_02 真值=4 预测=4 OK\r\n  img_03 真值=1 预测=1 OK\r\n  img_04 真值=9 预测=9 OK\r\n  img_05 真值=2 预测=2 OK\r\n  img_06 真值=1 预测=1 OK\r\n  img_07 真值=3 预测=3 OK\r\n  img_08 真值=4 预测=4 OK\r\n  img_09 真值=3 预测=3 OK\r\n  img_10 真值=5 预测=5 OK\r\n  img_11 真值=6 预测=6 OK\r\n  img_12 真值=7 预测=7 OK\r\n  img_13 真值=2 预测=2 OK\r\n  img_14 真值=8 预测=8 OK\r\n  img_15 真值=6 预测=6 OK\r\n  img_16 真值=9 预测=9 OK\r\n  img_17 真值=0 预测=0 OK\r\n  img_18 真值=7 预测=7 OK\r\n  img_19 真值=8 预测=8 OK\r\n冻结原始张量分类 20/20；分数 200/200；未访问相机/串口/JTAG；不含预处理验收\r\n"
+  },
+  "initializer_hash_check": {
+    "argv": [
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+      "--check-initializer"
+    ],
+    "exit_code": 0,
+    "output": "INITIALIZER_HASH_PASS_NO_HARDWARE {'resource_root': 'C:\\\\Users\\\\费浩轩\\\\Desktop\\\\V5统合版\\\\EES331_Studio_v5.6_convfast_candidate_20261101\\\\_internal\\\\resources', 'files': {'flash_payload/app.elf': {'bytes': 98744, 'sha256': '97c830045a0e2511ac014b94cca218c015de9f33f22052c6b77114f8d917b008'}, 'flash_payload/ps7_init.tcl': {'bytes': 26573, 'sha256': '4059d0d47de686973254485dda512839c5c545111ddd8d07d840a923acb97a5d'}, 'flash_payload/system.bit': {'bytes': 4045690, 'sha256': '722d30d5fdfe73abc19464d2b77715f20277a3ba6f98080198717e94b1f55fa3'}, 'initialization/bringup.tcl': {'bytes': 6593, 'sha256': '02e0ad67d097a8b6c6449d6af7d3137c390b35fcdeac7db33bb265392d31e4bf'}, 'initialization/initialize.tcl': {'bytes': 2445, 'sha256': 'b91f9f22431f72b99e7601af600dc3bafdcb68f290a2ef13a88c5719531db559'}}, 'elf_loads': [{'address': 1048576, 'memory_bytes': 79820}, {'address': 1128396, 'memory_bytes': 52040}], 'inference_tests_run': False, 'hardware_accessed': False, 'fpga_model': 'existing INT8 CNN; peer MLP is PC-only'}\r\n"
+  },
+  "binary_batch": {
+    "argv": [
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+      "--offline",
+      "--batch-manifest",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\examples\\batch-demo.json",
+      "--output-dir",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\batch_runs"
+    ],
+    "exit_code": 0,
+    "output": "BATCH_LOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\batch_runs\\batches\\20261102-000039-a5b9a92f\\batch.json\r\n{\"values\": [\"1\", \"2\", \"50\", \"9\", \"0\", \"8\", \"1\", \"2\"], \"pages\": [\"01 02 50\", \"09 00 08\", \"01 02   \"], \"page_seconds\": 5, \"hardware_accessed\": false}\r\n"
+  },
+  "batch_pages": [
+    "01 02 50",
+    "09 00 08",
+    "01 02   "
+  ],
+  "batch_over_eight_digits_complete": true,
+  "batch_saved_logits_exactly_replayed": true,
+  "binary_image_cases": [
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_5.png",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "5"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_5.png  1280x800\r\n{\"digit\": 5, \"where\": \"PC金标准\", \"ms\": 292.4570999985008, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 5, \"logits\": [-10208, -1916, -1845, 21597, -17938, 25070, -5504, -13133, 949, -668], \"pixels_sha256\": \"70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-10208, -1916, -1845, 21597, -17938, 25070, -5504, -13133, 949, -668], \"display\": {\"requested\": 5, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000052-dc439b51\r\n",
+      "expected": "5"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_4.png",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "4"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_4.png  1280x800\r\n{\"digit\": 4, \"where\": \"PC金标准\", \"ms\": 248.27669999831414, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 4, \"logits\": [-16681, -2593, 1913, -828, 26856, -11124, -4618, 1106, 1655, 2120], \"pixels_sha256\": \"a12f5827a382d1a740d6a69ff4731ec1f6d2d6db1e4a41a0508c6f8dcff0a281\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-16681, -2593, 1913, -828, 26856, -11124, -4618, 1106, 1655, 2120], \"display\": {\"requested\": 4, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000052-9e634a4d\r\n",
+      "expected": "4"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_9.png",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "9"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_9.png  1280x800\r\n{\"digit\": 9, \"where\": \"PC金标准\", \"ms\": 261.60320000053616, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 9, \"logits\": [-8314, -4157, -13527, 3959, 8415, -2735, -16710, 4333, 5862, 16733], \"pixels_sha256\": \"f29d2d0d0dfa2a9974bae1fe6fe5ac21c52d1d2fa8e3b94a8e3cb4164905af78\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-8314, -4157, -13527, 3959, 8415, -2735, -16710, 4333, 5862, 16733], \"display\": {\"requested\": 9, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000053-fc169f36\r\n",
+      "expected": "9"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\不对称两位_50.png",
+        "--mode",
+        "two",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "50"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\不对称两位_50.png  1280x800\r\n{\"digit\": 5, \"where\": \"PC金标准\", \"ms\": 245.27359999956388, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 5, \"logits\": [-10208, -1916, -1845, 21597, -17938, 25070, -5504, -13133, 949, -668], \"pixels_sha256\": \"70232de0f9afbb8beefab871b8d00563634b3eff5d80ee2b6c3f5e0a313c2aa9\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-10208, -1916, -1845, 21597, -17938, 25070, -5504, -13133, 949, -668], \"display\": {\"requested\": 50, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\n{\"digit\": 0, \"where\": \"PC金标准\", \"ms\": 229.87610000018321, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 0, \"logits\": [27469, -15757, 4147, -1572, -12376, 744, 3405, -3587, -4169, -1548], \"pixels_sha256\": \"3dcbc708c4c59b90bf35d411d539bc22d005832e27ce45e6fbf4ef69203233d3\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [27469, -15757, 4147, -1572, -12376, 744, 3405, -3587, -4169, -1548], \"display\": {\"requested\": 50, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000054-35745d51\r\n",
+      "expected": "50"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-224146-2e1d6c35.png",
+        "--capture-mode",
+        "guided",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "8"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-224146-2e1d6c35.png  1280x800\r\n{\"digit\": 8, \"where\": \"PC金标准\", \"ms\": 249.024400000053, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 8, \"logits\": [-3064, -5551, -7741, 6314, -1654, 2389, -302, -13051, 15896, 2166], \"pixels_sha256\": \"a2400ca4ea3fe110753b532bd8a5e114c74cc2eac9f41827a130aebba4844015\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-3064, -5551, -7741, 6314, -1654, 2389, -302, -13051, 15896, 2166], \"display\": {\"requested\": 8, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000054-05b5b40c\r\n",
+      "expected": "8",
+      "saved_camera_frame": "20261031-224146-2e1d6c35.png"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-224159-806b0a9f.png",
+        "--capture-mode",
+        "guided",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "8"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-224159-806b0a9f.png  1280x800\r\n{\"digit\": 8, \"where\": \"PC金标准\", \"ms\": 249.42679999912798, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 8, \"logits\": [-5216, -4661, -8057, 6136, -1013, 3695, 147, -11830, 14209, 1952], \"pixels_sha256\": \"81d2952a7eb495d7f98db6ebbeed8c9070cf9070e8f9bdeaffc2365f491c0965\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-5216, -4661, -8057, 6136, -1013, 3695, 147, -11830, 14209, 1952], \"display\": {\"requested\": 8, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000055-0f9c94b0\r\n",
+      "expected": "8",
+      "saved_camera_frame": "20261031-224159-806b0a9f.png"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-224700-2ce314bc.png",
+        "--capture-mode",
+        "auto",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "8"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-224700-2ce314bc.png  1280x800\r\n{\"digit\": 8, \"where\": \"PC金标准\", \"ms\": 276.9795999993221, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 8, \"logits\": [785, -2912, -5982, 13150, -10148, 2345, -9165, -11926, 18092, 1978], \"pixels_sha256\": \"9900ddd703c99043362f9d39805d95f06bae9b73b69c06c3b86f81ed5dac65d7\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [785, -2912, -5982, 13150, -10148, 2345, -9165, -11926, 18092, 1978], \"display\": {\"requested\": 8, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000056-cbd92729\r\n",
+      "expected": "8",
+      "saved_camera_frame": "20261031-224700-2ce314bc.png"
+    },
+    {
+      "argv": [
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+        "--offline",
+        "--image",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-223929-7692b1aa.png",
+        "--capture-mode",
+        "guided",
+        "--output-dir",
+        "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+        "--label",
+        "3"
+      ],
+      "exit_code": 0,
+      "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\fixtures\\camera-83\\20261031-223929-7692b1aa.png  1280x800\r\n{\"digit\": 3, \"where\": \"PC金标准\", \"ms\": 253.87549999868497, \"strategy\": \"single\", \"raw_routes\": [{\"fit\": 20, \"digit\": 3, \"logits\": [-16430, 2013, -6886, 35669, -14557, 9445, -21941, 1092, 1756, 3525], \"pixels_sha256\": \"7d0374828d054bc4a4827874476a12f4532119b5997d7af7144a714ace417eea\"}], \"fusion_scores\": null, \"calibrated_probability\": false, \"display_scores\": [-16430, 2013, -6886, 35669, -14557, 9445, -21941, 1092, 1756, 3525], \"display\": {\"requested\": 3, \"ack\": null, \"verified\": false, \"deferred\": false, \"physical_observation_pending\": false}}\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000057-759f4245\r\n",
+      "expected": "3",
+      "saved_camera_frame": "20261031-223929-7692b1aa.png"
+    }
+  ],
+  "blank_rejection": {
+    "argv": [
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+      "--offline",
+      "--image",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\空白.png",
+      "--output-dir",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs"
+    ],
+    "exit_code": 1,
+    "output": "输入 C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\空白.png  320x240\r\n没识别出来：取景框：No usable digit contrast; select a closer ROI；每框放一个完整黑字，四周留白\r\nLOG=C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs\\20261102-000057-ad191dff\r\n"
+  },
+  "tensor_replay": {
+    "argv": [
+      "C:\\Users\\费浩轩\\tools\\python-3.13.7\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\source\\evaluate_samples.py",
+      "--runs",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\binary_runs",
+      "--model-base",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\resources",
+      "--output",
+      "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\saved_tensor_evaluation.json"
+    ],
+    "exit_code": 0,
+    "output": "已评估9个数字，CNN正确9，MLP正确数{}，拒绝记录0\r\n"
+  },
+  "saved_inputs_match_current_model": true,
+  "source_matches_build_manifest": true,
+  "resources_match_build_manifest": true,
+  "packaged_resources_match": true,
+  "raw_logits_replayed_exactly": true,
+  "retired_models_used": false,
+  "demo_guides_default": true,
+  "synthetic_inputs_only": false,
+  "saved_camera_regressions": {
+    "eights": 3,
+    "real_three": 1,
+    "correct": 4,
+    "development_samples_not_independent_accuracy": true
+  }
+}

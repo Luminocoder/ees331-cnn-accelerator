@@ -1,0 +1,8 @@
+test_boundary_foreground_is_not_clipped_and_empty_is_rejected (__main__.Center.test_boundary_foreground_is_not_clipped_and_empty_is_rejected) ... ok
+test_camera_eights_and_real_three (__main__.Center.test_camera_eights_and_real_three) ... ok
+test_center_is_subpixel_and_close_to_fourteen (__main__.Center.test_center_is_subpixel_and_close_to_fourteen) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.956s
+
+OK

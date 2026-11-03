@@ -1,0 +1,16 @@
+[
+  {
+    "file": "tests/validate_delivery.py",
+    "original_sha256": "b9d5fa7e11d6135588d480c1dbcc4a1dcb4edf412286bf520c72ea8c9fcf6541",
+    "current_sha256": "7a2399d3f6e0388429aa1d29af99388c59b4cd4bd4678522c288151ba2954dc5",
+    "original_preserved_at": "provenance/original_validate_delivery.py",
+    "scope": "test entry/path arguments only; no product inference or hardware logic changes"
+  },
+  {
+    "file": "tests/check_camera_replay.py",
+    "original_sha256": "78654ea7d603cea0af16d0fba22b7b44133ff64937438f7733592f086fbb045d",
+    "current_sha256": "33047b53e98b9aabf105d59cc91753d757c590cbd37764e221ae819a24d74925",
+    "original_preserved_at": "provenance/original_check_camera_replay.py",
+    "scope": "test entry/path arguments only; no product inference or hardware logic changes"
+  }
+]

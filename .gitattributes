@@ -1,0 +1,2 @@
+# Keep frozen CRLF/LF bytes and SHA256 identical after clone on Windows.
+* -text

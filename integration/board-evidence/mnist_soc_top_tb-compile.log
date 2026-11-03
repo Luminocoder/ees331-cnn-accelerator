@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/buffers.v" into library work
+INFO: [VRFC 10-311] analyzing module weight_bram
+INFO: [VRFC 10-311] analyzing module fm_bram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/mac_array.sv" into library work
+INFO: [VRFC 10-311] analyzing module mac_array
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/controller.v" into library work
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/conv_engine.sv" into library work
+INFO: [VRFC 10-311] analyzing module conv_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/fc_engine.sv" into library work
+INFO: [VRFC 10-311] analyzing module fc_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/pool_engine.sv" into library work
+INFO: [VRFC 10-311] analyzing module pool_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/accelerator/cnn_accel_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module cnn_accel_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/soc/axi_if_v2.v" into library work
+INFO: [VRFC 10-311] analyzing module axi_if_v2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/soc/mnist_soc_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module mnist_soc_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/aic/ees331-page-20261101-234400-9eb3c39b/source/rtl/soc/mnist_soc_top_tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module mnist_soc_top_tb

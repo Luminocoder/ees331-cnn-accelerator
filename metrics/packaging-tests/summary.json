@@ -1,0 +1,28 @@
+{
+  "date_utc": "2026-11-03T02:43:13.979290+00:00",
+  "passed": true,
+  "binary_validation": true,
+  "binary_validation_skipped_reason": null,
+  "source_regression_scripts": [
+    "test_v42.py",
+    "test_v5.py",
+    "test_native_runtime.py",
+    "test_demo.py",
+    "test_preview.py",
+    "test_camera_center.py",
+    "test_batch.py",
+    "test_display_transport.py",
+    "test_arm_benchmark.py"
+  ],
+  "results": [
+    {
+      "name": "original_full_delivery_acceptance",
+      "exit_code": 0,
+      "log": "original_full_delivery_acceptance.log"
+    }
+  ],
+  "hardware_accessed": false,
+  "camera_opened": false,
+  "jtag_accessed": false,
+  "not_a_new_board_measurement": true
+}

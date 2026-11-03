@@ -1,0 +1,17 @@
+V5_TARGETS:   1  APU
+     2  ARM Cortex-A9 MPCore #0 (Running)
+  3  xc7z020
+V5_TARGET_PREFLIGHT_PASS
+PLAN: one Cortex-A9 #0 -> system reset -> PL program -> matching PS init -> post_config -> DDR probe -> MMIO
+PLAN: load arm_firmware/app.elf -> continue CPU -> verify UART/self-test/PC separately
+CPU_STOPPED_VERIFIED: selected CPU reports suspended=1
+CPU_STOPPED_VERIFIED: selected CPU reports suspended=1
+PS_INIT_RETURNED: now checking DDR, not claiming DDR training stability
+DDR_PROBE_PASS: 4 KiB / 3 patterns + address XOR, originals restored; NOT full DDR qualification
+DEBUG_MMIO_MAP_SET: APU 0x43C00000..0x43C0FFFF read/write only
+CPU_STOPPED_VERIFIED: selected CPU reports suspended=1
+MMIO_PROBE_PASS: STATUS=0 before/after completed IMG_PTR write; write-only pointer not read back; no inference yet
+CPU_STARTED_NOT_ACCEPTED: check UART_READY, PL_RESET_DONE and 10/200-logit comparison
+CPU_STOPPED_VERIFIED: selected CPU reports suspended=1
+VERIFY> STATUS=0 MAGIC=1397049137 SEGVAL=4294967295 PAGE_ID=1346455345
+V5_DEPLOYMENT_PASS

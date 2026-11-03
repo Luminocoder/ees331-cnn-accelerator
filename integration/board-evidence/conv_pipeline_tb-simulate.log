@@ -1,0 +1,27 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sun Nov  1 23:44:03 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/snapshot/xsim_script.tcl
+# xsim {snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS conv_pipeline case=0 shape=1x1x1->1 shift=0 outputs=1 cycles=27
+PASS conv_pipeline case=1 shape=4x4x2->3 shift=0 outputs=48 cycles=206
+PASS conv_pipeline case=2 shape=4x4x2->3 shift=9 outputs=48 cycles=206
+PASS conv_pipeline case=3 shape=28x28x1->8 shift=9 outputs=6272 cycles=7172
+PASS conv_pipeline case=4 shape=14x14x8->16 shift=9 outputs=3136 cycles=27884
+PASS conv_pipeline case=5 shape=28x28x1->8 shift=10 outputs=6272 cycles=7172
+PASS conv_pipeline case=6 shape=8x8x16->8 shift=15 outputs=512 cycles=10412
+PASS conv_pipeline case=7 shape=28x28x1->8 shift=0 outputs=6272 cycles=7172
+PASS conv_pipeline case=9 shape=14x14x8->16 shift=9 outputs=3136 cycles=27884
+PASS conv_pipeline case=11 shape=14x14x8->16 shift=9 outputs=3136 cycles=27884
+PASS: conv_pipeline scalar oracle, 28833 outputs, signed boundaries, reload and 2 reset phases
+$finish called at time : 2383060 ns : File "D:/aic/ees331-page-20261101-234400-9eb3c39b/tests/conv_pipeline_tb.sv" Line 118
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 23:44:06 2026...

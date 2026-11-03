@@ -1,0 +1,17 @@
+{
+  "hardware_accessed": false,
+  "camera_opened": false,
+  "native_tk_ui_created": true,
+  "real_firmware_c_used": true,
+  "pl_mmio_emulated": true,
+  "page_interval_seconds": 5.017632699999012,
+  "packed_pages": [
+    "01f02f03",
+    "00f09fff"
+  ],
+  "clear_page": "ffffffff",
+  "ack_verified": true,
+  "stop_verified": true,
+  "legacy_auto_display_restored_on_disconnect": true,
+  "physical_digit_order_verified": false
+}

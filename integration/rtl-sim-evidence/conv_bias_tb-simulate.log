@@ -1,0 +1,69 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sun Nov  1 23:37:29 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/snapshot/xsim_script.tcl
+# xsim {snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+  MON t=2610000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52040 bias=x
+  MON t=2630000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52041 bias=x
+  MON t=2650000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52042 bias=X
+  MON t=2670000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52043 bias=X
+  MON t=2690000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52044 bias=X
+  MON t=2710000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52045 bias=5
+  MON t=2730000 state=5 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52046 bias=5
+  MON t=2750000 state=6 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2770000 state=6 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2790000 state=7 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2810000 state=7 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2830000 state=7 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2850000 state=7 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2870000 state=7 oc=0 fm_we=0 fm_addr=15 fm_wd=0 wb_addr=52047 bias=5
+  MON t=2890000 state=7 oc=0 fm_we=1 fm_addr=8192 fm_wd=5 wb_addr=52047 bias=5
+  MON t=2910000 state=7 oc=0 fm_we=1 fm_addr=8193 fm_wd=5 wb_addr=52047 bias=5
+  MON t=2930000 state=7 oc=0 fm_we=1 fm_addr=8194 fm_wd=5 wb_addr=52047 bias=5
+  MON t=2950000 state=7 oc=0 fm_we=1 fm_addr=8195 fm_wd=5 wb_addr=52047 bias=5
+  MON t=2970000 state=7 oc=0 fm_we=1 fm_addr=8196 fm_wd=5 wb_addr=52047 bias=5
+  MON t=2990000 state=7 oc=0 fm_we=1 fm_addr=8197 fm_wd=5 wb_addr=52047 bias=5
+  MON t=3010000 state=7 oc=0 fm_we=1 fm_addr=8198 fm_wd=5 wb_addr=52047 bias=5
+  MON t=3030000 state=7 oc=0 fm_we=1 fm_addr=8199 fm_wd=5 wb_addr=52047 bias=5
+  MON t=3050000 state=7 oc=0 fm_we=1 fm_addr=8200 fm_wd=5 wb_addr=52047 bias=5
+  MON t=3070000 state=7 oc=0 fm_we=1 fm_addr=8201 fm_wd=5 wb_addr=52047 bias=5
+  MON t=3090000 state=7 oc=0 fm_we=1 fm_addr=8202 fm_wd=5 wb_addr=52047 bias=5
+  MON t=3110000 state=7 oc=1 fm_we=1 fm_addr=8203 fm_wd=5 wb_addr=52047 bias=7
+  MON t=3130000 state=7 oc=1 fm_we=1 fm_addr=8204 fm_wd=5 wb_addr=52047 bias=7
+  MON t=3150000 state=7 oc=1 fm_we=1 fm_addr=8205 fm_wd=5 wb_addr=52047 bias=7
+  MON t=3170000 state=7 oc=1 fm_we=1 fm_addr=8206 fm_wd=5 wb_addr=52047 bias=7
+  MON t=3190000 state=7 oc=1 fm_we=1 fm_addr=8207 fm_wd=5 wb_addr=52047 bias=7
+  MON t=3210000 state=7 oc=1 fm_we=1 fm_addr=8208 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3230000 state=7 oc=1 fm_we=1 fm_addr=8209 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3250000 state=7 oc=1 fm_we=1 fm_addr=8210 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3270000 state=7 oc=1 fm_we=1 fm_addr=8211 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3290000 state=7 oc=1 fm_we=1 fm_addr=8212 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3310000 state=7 oc=1 fm_we=1 fm_addr=8213 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3330000 state=7 oc=1 fm_we=1 fm_addr=8214 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3350000 state=7 oc=1 fm_we=1 fm_addr=8215 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3370000 state=7 oc=1 fm_we=1 fm_addr=8216 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3390000 state=7 oc=1 fm_we=1 fm_addr=8217 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3410000 state=7 oc=1 fm_we=1 fm_addr=8218 fm_wd=7 wb_addr=52047 bias=7
+  MON t=3430000 state=8 oc=2 fm_we=1 fm_addr=8219 fm_wd=7 wb_addr=52047 bias=x
+  MON t=3450000 state=8 oc=2 fm_we=1 fm_addr=8220 fm_wd=7 wb_addr=52047 bias=x
+  MON t=3470000 state=8 oc=2 fm_we=1 fm_addr=8221 fm_wd=7 wb_addr=52047 bias=x
+  MON t=3490000 state=8 oc=2 fm_we=1 fm_addr=8222 fm_wd=7 wb_addr=52047 bias=x
+  MON t=3510000 state=9 oc=2 fm_we=1 fm_addr=8223 fm_wd=7 wb_addr=52047 bias=x
+  MON t=3530000 state=10 oc=2 fm_we=0 fm_addr=8223 fm_wd=7 wb_addr=52047 bias=x
+  MON t=3550000 state=0 oc=2 fm_we=0 fm_addr=8223 fm_wd=7 wb_addr=52047 bias=x
+[PASS] TEST A: oc0 bias=5 -> output 5 (byte order OK)
+[PASS] TEST A2: oc1 bias=7 -> output 7 (per-channel refetch OK)
+[PASS] TEST B: bias=5 S=2 -> output 1 (arithmetic shift OK)
+[PASS] TEST B2: oc1 bias=7 S=2 -> output 1
+[PASS] conv_bias: all tests passed
+$finish called at time : 5590 ns : File "D:/aic/ees331-page-20261101-233719-fa93cc42/source/rtl/accelerator/conv_bias_tb.sv" Line 162
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 23:37:31 2026...

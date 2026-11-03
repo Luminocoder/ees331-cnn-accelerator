@@ -1,0 +1,6 @@
+2026-11-03 final packaging
+- Freeze board-tested v5.6 product source, weights, RTL, EXE, bit and ELF unchanged.
+- Normalize owned filenames to lowercase on Windows; retain immutable provenance and raw results.
+- Include ARM scalar baseline, PC camera workflow, seven-segment paging, model/reference/train code and regressions.
+- Add portable documentation, integrity/validation entrypoints and Git exclusions.
+- Keep the report and original photographs under user control; no report edits or hardware access.

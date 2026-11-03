@@ -1,0 +1,1628 @@
+{
+  "algorithm": "legacy-v29-local-background-stroke225-auto-v51+subpixel-centroid14-v1",
+  "bbox": [
+    407,
+    136,
+    323,
+    550
+  ],
+  "roi_xywh": null,
+  "polarity": "dark",
+  "foreground_fraction": 0.15051020408163265,
+  "component_area": 20921,
+  "otsu_threshold": 54.0,
+  "contrast_threshold": 53.0,
+  "background_kernel_size": 61,
+  "background_noise_mad": 4.0,
+  "candidate_count": 1,
+  "rejected_components": [
+    {
+      "bbox": [
+        0,
+        0,
+        281,
+        800
+      ],
+      "area": 143033,
+      "reasons": [
+        "search_boundary"
+      ]
+    },
+    {
+      "bbox": [
+        910,
+        0,
+        370,
+        800
+      ],
+      "area": 152319,
+      "reasons": [
+        "search_boundary"
+      ]
+    },
+    {
+      "bbox": [
+        967,
+        29,
+        34,
+        39
+      ],
+      "area": 370,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        948,
+        31,
+        20,
+        18
+      ],
+      "area": 127,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        928,
+        35,
+        20,
+        23
+      ],
+      "area": 199,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        828,
+        94,
+        67,
+        53
+      ],
+      "area": 936,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1174,
+        642,
+        26,
+        12
+      ],
+      "area": 110,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1220,
+        648,
+        60,
+        20
+      ],
+      "area": 332,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1037,
+        653,
+        198,
+        65
+      ],
+      "area": 3169,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1236,
+        668,
+        44,
+        66
+      ],
+      "area": 1373,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "solid_patch"
+      ]
+    },
+    {
+      "bbox": [
+        884,
+        695,
+        19,
+        17
+      ],
+      "area": 144,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1035,
+        702,
+        121,
+        54
+      ],
+      "area": 2187,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1213,
+        706,
+        22,
+        15
+      ],
+      "area": 114,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1116,
+        717,
+        62,
+        17
+      ],
+      "area": 482,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1035,
+        729,
+        245,
+        71
+      ],
+      "area": 6823,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        851,
+        739,
+        12,
+        19
+      ],
+      "area": 105,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1159,
+        746,
+        20,
+        14
+      ],
+      "area": 111,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        835,
+        764,
+        36,
+        36
+      ],
+      "area": 663,
+      "reasons": [
+        "search_boundary",
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1034,
+        793,
+        27,
+        7
+      ],
+      "area": 103,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        75,
+        794,
+        36,
+        6
+      ],
+      "area": 135,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        977,
+        0,
+        176,
+        624
+      ],
+      "area": 22219,
+      "reasons": [
+        "search_boundary"
+      ]
+    },
+    {
+      "bbox": [
+        109,
+        18,
+        161,
+        23
+      ],
+      "area": 628,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        31,
+        23,
+        137,
+        17
+      ],
+      "area": 559,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1242,
+        31,
+        38,
+        15
+      ],
+      "area": 325,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        175,
+        39,
+        50,
+        10
+      ],
+      "area": 257,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1203,
+        50,
+        19,
+        17
+      ],
+      "area": 108,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        123,
+        69,
+        28,
+        6
+      ],
+      "area": 115,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1234,
+        68,
+        46,
+        14
+      ],
+      "area": 265,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        189,
+        74,
+        42,
+        11
+      ],
+      "area": 169,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        80,
+        79,
+        90,
+        14
+      ],
+      "area": 501,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        33,
+        88,
+        98,
+        16
+      ],
+      "area": 520,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        176,
+        88,
+        86,
+        13
+      ],
+      "area": 505,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        136,
+        100,
+        111,
+        16
+      ],
+      "area": 493,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        104,
+        21,
+        17
+      ],
+      "area": 119,
+      "reasons": [
+        "search_boundary",
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1156,
+        105,
+        124,
+        19
+      ],
+      "area": 881,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        68,
+        108,
+        39,
+        9
+      ],
+      "area": 159,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        109,
+        113,
+        151,
+        23
+      ],
+      "area": 700,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        125,
+        52,
+        13
+      ],
+      "area": 253,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        54,
+        133,
+        48,
+        15
+      ],
+      "area": 296,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        181,
+        133,
+        31,
+        10
+      ],
+      "area": 112,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1105,
+        136,
+        52,
+        13
+      ],
+      "area": 354,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1159,
+        136,
+        102,
+        15
+      ],
+      "area": 809,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        191,
+        146,
+        67,
+        9
+      ],
+      "area": 275,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        171,
+        153,
+        54,
+        15
+      ],
+      "area": 204,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        50,
+        155,
+        34,
+        6
+      ],
+      "area": 120,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1154,
+        185,
+        119,
+        13
+      ],
+      "area": 647,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        188,
+        52,
+        16
+      ],
+      "area": 301,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        65,
+        200,
+        43,
+        6
+      ],
+      "area": 113,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        134,
+        200,
+        29,
+        8
+      ],
+      "area": 103,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1151,
+        211,
+        92,
+        11
+      ],
+      "area": 460,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        162,
+        214,
+        28,
+        8
+      ],
+      "area": 110,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        217,
+        42,
+        47
+      ],
+      "area": 604,
+      "reasons": [
+        "search_boundary",
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        166,
+        225,
+        34,
+        7
+      ],
+      "area": 105,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1155,
+        229,
+        32,
+        12
+      ],
+      "area": 171,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1257,
+        238,
+        23,
+        9
+      ],
+      "area": 118,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1175,
+        251,
+        56,
+        7
+      ],
+      "area": 161,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        147,
+        273,
+        41,
+        9
+      ],
+      "area": 114,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        68,
+        284,
+        39,
+        7
+      ],
+      "area": 107,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1191,
+        286,
+        33,
+        7
+      ],
+      "area": 117,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        15,
+        295,
+        45,
+        10
+      ],
+      "area": 155,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        133,
+        298,
+        41,
+        9
+      ],
+      "area": 184,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        70,
+        305,
+        50,
+        12
+      ],
+      "area": 171,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1075,
+        306,
+        35,
+        7
+      ],
+      "area": 113,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        153,
+        312,
+        46,
+        13
+      ],
+      "area": 243,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1244,
+        314,
+        36,
+        6
+      ],
+      "area": 129,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        62,
+        318,
+        27,
+        8
+      ],
+      "area": 133,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        203,
+        321,
+        27,
+        11
+      ],
+      "area": 139,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1105,
+        326,
+        32,
+        7
+      ],
+      "area": 139,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        159,
+        328,
+        69,
+        12
+      ],
+      "area": 275,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1161,
+        330,
+        44,
+        10
+      ],
+      "area": 105,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        333,
+        53,
+        11
+      ],
+      "area": 256,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        61,
+        335,
+        51,
+        23
+      ],
+      "area": 374,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1077,
+        334,
+        36,
+        8
+      ],
+      "area": 133,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        152,
+        339,
+        81,
+        13
+      ],
+      "area": 246,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1074,
+        345,
+        53,
+        9
+      ],
+      "area": 208,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1236,
+        347,
+        28,
+        9
+      ],
+      "area": 123,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        17,
+        348,
+        41,
+        9
+      ],
+      "area": 167,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1089,
+        357,
+        40,
+        9
+      ],
+      "area": 181,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1247,
+        360,
+        33,
+        22
+      ],
+      "area": 267,
+      "reasons": [
+        "search_boundary",
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        54,
+        365,
+        64,
+        14
+      ],
+      "area": 406,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1152,
+        375,
+        32,
+        8
+      ],
+      "area": 109,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        98,
+        388,
+        40,
+        7
+      ],
+      "area": 157,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        186,
+        392,
+        28,
+        10
+      ],
+      "area": 110,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1092,
+        403,
+        69,
+        11
+      ],
+      "area": 284,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        12,
+        404,
+        52,
+        10
+      ],
+      "area": 193,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        166,
+        409,
+        55,
+        12
+      ],
+      "area": 231,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        70,
+        410,
+        51,
+        9
+      ],
+      "area": 180,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1106,
+        415,
+        67,
+        11
+      ],
+      "area": 214,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        126,
+        417,
+        60,
+        12
+      ],
+      "area": 214,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        13,
+        431,
+        54,
+        10
+      ],
+      "area": 196,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        163,
+        438,
+        32,
+        11
+      ],
+      "area": 160,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        4,
+        443,
+        85,
+        20
+      ],
+      "area": 480,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1168,
+        444,
+        24,
+        11
+      ],
+      "area": 106,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1228,
+        454,
+        52,
+        16
+      ],
+      "area": 405,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        456,
+        56,
+        15
+      ],
+      "area": 338,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        92,
+        458,
+        28,
+        10
+      ],
+      "area": 107,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        60,
+        464,
+        49,
+        10
+      ],
+      "area": 159,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        123,
+        464,
+        42,
+        12
+      ],
+      "area": 182,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        173,
+        468,
+        41,
+        13
+      ],
+      "area": 301,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        0,
+        473,
+        22,
+        26
+      ],
+      "area": 186,
+      "reasons": [
+        "search_boundary",
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1168,
+        479,
+        27,
+        13
+      ],
+      "area": 139,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        22,
+        482,
+        75,
+        21
+      ],
+      "area": 430,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1193,
+        500,
+        37,
+        7
+      ],
+      "area": 110,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        26,
+        518,
+        27,
+        7
+      ],
+      "area": 116,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        69,
+        522,
+        39,
+        11
+      ],
+      "area": 137,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1238,
+        543,
+        37,
+        13
+      ],
+      "area": 180,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        16,
+        545,
+        56,
+        13
+      ],
+      "area": 172,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        163,
+        561,
+        29,
+        10
+      ],
+      "area": 122,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1251,
+        569,
+        29,
+        12
+      ],
+      "area": 151,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        44,
+        570,
+        30,
+        12
+      ],
+      "area": 127,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        1210,
+        600,
+        70,
+        32
+      ],
+      "area": 408,
+      "reasons": [
+        "search_boundary",
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        66,
+        609,
+        25,
+        10
+      ],
+      "area": 106,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        90,
+        652,
+        75,
+        29
+      ],
+      "area": 460,
+      "reasons": [
+        "too_small",
+        "aspect"
+      ]
+    },
+    {
+      "bbox": [
+        994,
+        669,
+        24,
+        14
+      ],
+      "area": 135,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        949,
+        688,
+        19,
+        112
+      ],
+      "area": 775,
+      "reasons": [
+        "search_boundary",
+        "one_sided_paper_edge"
+      ]
+    },
+    {
+      "bbox": [
+        976,
+        688,
+        43,
+        26
+      ],
+      "area": 447,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        991,
+        711,
+        26,
+        14
+      ],
+      "area": 175,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        983,
+        736,
+        32,
+        41
+      ],
+      "area": 503,
+      "reasons": [
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1063,
+        0,
+        12,
+        27
+      ],
+      "area": 150,
+      "reasons": [
+        "search_boundary",
+        "too_small"
+      ]
+    },
+    {
+      "bbox": [
+        1021,
+        133,
+        34,
+        163
+      ],
+      "area": 1146,
+      "reasons": [
+        "one_sided_paper_edge"
+      ]
+    },
+    {
+      "bbox": [
+        1022,
+        133,
+        32,
+        157
+      ],
+      "area": 732,
+      "reasons": [
+        "one_sided_paper_edge"
+      ]
+    }
+  ],
+  "laplacian_variance": 139.20351268305785,
+  "warnings": [],
+  "pixels_sha256": "9900ddd703c99043362f9d39805d95f06bae9b73b69c06c3b86f81ed5dac65d7",
+  "stroke_width_source_px": 12.18139934539795,
+  "stroke_dilation_radius_px": 25,
+  "target_stroke_width_28px": 2.25,
+  "normalization_padding_px": 27,
+  "center_shift_xy": [
+    0,
+    0
+  ],
+  "normalization_refinement": "subpixel-centroid14-v1",
+  "input_center_before_xy": [
+    13.583729216152019,
+    13.38104958432304
+  ],
+  "target_center_xy": [
+    14.0,
+    14.0
+  ],
+  "subpixel_center_shift_xy": [
+    0.4162707838479811,
+    0.6189504156769594
+  ],
+  "center_shift_clamped": false,
+  "center_interpolation": "bilinear",
+  "schema": "mnist-camera-sample-v1",
+  "shape_hw": [
+    28,
+    28
+  ],
+  "representation": "uint8_0_255_before_arm_shift",
+  "byte_order": "row-major",
+  "payload_size": 784,
+  "arm_operation": "cnn_write_image applies pixel >> 1 exactly once",
+  "created_utc": "2026-11-01T16:00:56.522248+00:00"
+}

@@ -1,0 +1,17 @@
+
+****** xsim v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sun Nov  1 23:44:15 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/snapshot/xsim_script.tcl
+# xsim {snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PASS: eight-cell scan, blank transistors off, 10us dead time, 2us settling, both polarities/orders, legacy modes
+$finish called at time : 14002082 ns : File "D:/aic/ees331-page-20261101-234400-9eb3c39b/tests/sevenseg_page_tb.sv" Line 83
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Nov  1 23:44:17 2026...

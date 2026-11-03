@@ -1,0 +1,23 @@
+# Portable EXE dependencies are delivered locally, not as Git source blobs.
+/_internal/
+/ees331_studio.exe
+/EES331_Studio.exe
+/local_evidence/
+/logs/
+/validation/
+/hardware/build/
+/build/
+/_build_v5/
+/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+.Xil/
+*.jou
+*.wdb
+*.pb
+*.rar
+*.zip
+*.7z
+.DS_Store
+Thumbs.db

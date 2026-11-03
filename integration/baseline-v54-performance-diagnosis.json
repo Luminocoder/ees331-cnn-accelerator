@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-01",
+  "real_board_version": "v5.4",
+  "raw_board_results": "integration/v54-board-benchmark/results.json",
+  "preserved_board_log_sha256": {
+    "last_reply.hex": "5e1e1d012551659b7fb1eaf366be5ee2c602b170e08cf09de8d1d3656c23bc90",
+    "results.json": "fab098aed8dc6339bf3de189f48d1c9b2a981e211b98aae3b7a2b4a3b88d64b9",
+    "rows.csv": "eadf4119110c3834e9bf52eef9dc1ae350e7d383b375a5b5dfdbd7a01c4808eb",
+    "wire.jsonl": "f9e1c349a2249f998a359f3dfd9caed520cb7150c800e788c9228da5ba2c9bfc",
+    "结论.md": "6b6593a6b72051fed8bf8ed6f354e24824ae2b4468de5d3352097f81cbee10e4"
+  },
+  "formal_pairs": 100,
+  "cpu_total_ticks": 164578409,
+  "pl_total_ticks": 847413584,
+  "cpu_mean_ms": 4.937352319373523,
+  "arm_pl_mean_ms": 25.422407774224077,
+  "speedup": 0.1942126160205617,
+  "arm_pl_time_over_cpu": 5.148996087330022,
+  "clocks": {
+    "arm_hz": 666666660.0,
+    "pl_hz": 49999999.5,
+    "timer_hz": 333333330.0,
+    "frequency_source": "SLCR readback + configured 33.333333 MHz reference; host elapsed-time cross-check"
+  },
+  "scores_rechecked": true,
+  "cache_and_timer_restored": true,
+  "rtl_simulation": {
+    "not_a_board_measurement": true,
+    "clock_mhz": 50,
+    "identical_samples": 20,
+    "accelerator_busy_cycles": 1256726,
+    "accelerator_busy_ms": 25.13452,
+    "layers": {
+      "conv1": {
+        "cycles": 250931,
+        "simulation_ms_at_50MHz": 5.01862,
+        "percent_of_busy": 19.967041343936547
+      },
+      "pool1": {
+        "cycles": 10979,
+        "simulation_ms_at_50MHz": 0.21958,
+        "percent_of_busy": 0.873619229649104
+      },
+      "conv2": {
+        "cycles": 937763,
+        "simulation_ms_at_50MHz": 18.75526,
+        "percent_of_busy": 74.61952724778513
+      },
+      "pool2": {
+        "cycles": 5491,
+        "simulation_ms_at_50MHz": 0.10982,
+        "percent_of_busy": 0.4369289725843183
+      },
+      "fc1": {
+        "cycles": 50819,
+        "simulation_ms_at_50MHz": 1.01638,
+        "percent_of_busy": 4.043761329040698
+      },
+      "fc2": {
+        "cycles": 743,
+        "simulation_ms_at_50MHz": 0.01486,
+        "percent_of_busy": 0.059121877004215714
+      }
+    }
+  },
+  "conclusion": "Current accelerator is compute-bound; serial BRAM window gathering and mostly-idle MAC array dominate convolution.",
+  "changes_in_v55": "Display timing only; no CNN engine, weights, CPU baseline, clocks or measurement boundary changes.",
+  "performance_optimization_done": false,
+  "ghostfix_physically_verified": false
+}

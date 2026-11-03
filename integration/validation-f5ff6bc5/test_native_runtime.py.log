@@ -1,0 +1,11 @@
+test_deploy_aborts_before_hardware_server_if_runtime_fails (__main__.NativeRuntime.test_deploy_aborts_before_hardware_server_if_runtime_fails) ... ok
+test_initialization_reopens_uart_before_hello_and_closes_both_handles (__main__.NativeRuntime.test_initialization_reopens_uart_before_hello_and_closes_both_handles) ... ok
+test_process_creation_clears_and_restores_dll_directory_even_on_failure (__main__.NativeRuntime.test_process_creation_clears_and_restores_dll_directory_even_on_failure) ... ok
+test_runtime_cli_rejects_hardware_combination (__main__.NativeRuntime.test_runtime_cli_rejects_hardware_combination) ... ok
+test_runtime_requires_real_success_marker_and_has_no_hardware_commands (__main__.NativeRuntime.test_runtime_requires_real_success_marker_and_has_no_hardware_commands) ... ok
+test_vendor_environment_excludes_bundle_tcl_and_path (__main__.NativeRuntime.test_vendor_environment_excludes_bundle_tcl_and_path) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.095s
+
+OK

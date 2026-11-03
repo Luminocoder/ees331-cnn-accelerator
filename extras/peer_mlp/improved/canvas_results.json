@@ -1,0 +1,17 @@
+{
+  "old v1 (98.18%)": {
+    "A. naive resize (no invert/crop)": 0.096,
+    "B. invert only": 0.115,
+    "C. full preprocess (ours)": 0.9575
+  },
+  "new 256x128": {
+    "A. naive resize (no invert/crop)": 0.093,
+    "B. invert only": 0.1395,
+    "C. full preprocess (ours)": 0.97
+  },
+  "new 512x256": {
+    "A. naive resize (no invert/crop)": 0.096,
+    "B. invert only": 0.141,
+    "C. full preprocess (ours)": 0.976
+  }
+}

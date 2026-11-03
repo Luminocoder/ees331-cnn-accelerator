@@ -1,0 +1,83 @@
+{
+  "polarity": "dark",
+  "roi_xywh": [
+    320,
+    80,
+    640,
+    640
+  ],
+  "digit_bbox_in_roi_xywh": [
+    242,
+    185,
+    186,
+    301
+  ],
+  "detected_bbox_in_roi_xywh": [
+    242,
+    185,
+    186,
+    301
+  ],
+  "foreground_origin_in_roi_xy": [
+    240,
+    183
+  ],
+  "normalization_padding_px": 2,
+  "target_stroke_width_28px": 2.25,
+  "otsu_threshold": 95.0,
+  "contrast_threshold": 95.0,
+  "background_noise_mad": 0.0,
+  "background_kernel_size": 61,
+  "component_area": 15043,
+  "stroke_width_source_px": 43.799991607666016,
+  "stroke_dilation_radius_px": 0,
+  "foreground_fraction": 0.03672607421875,
+  "center_shift_xy": [
+    1,
+    0
+  ],
+  "algorithm": "original-v29-fixed-guides-demo-v51+subpixel-centroid14-v1",
+  "accuracy_validated": false,
+  "legacy_algorithm": "local-background-padded-stroke2.25-fit20-mass-center-v3",
+  "bbox": [
+    562,
+    265,
+    186,
+    301
+  ],
+  "guide_roi_xywh": [
+    320,
+    80,
+    640,
+    640
+  ],
+  "guide_index": 0,
+  "candidate_count": 1,
+  "warnings": [],
+  "pixels_sha256": "7bb7c2e002fd82d963764bf962dcf87afef781d2732b76e723e80b7ff560c03c",
+  "normalization_refinement": "subpixel-centroid14-v1",
+  "input_center_before_xy": [
+    13.994769174624414,
+    13.49388723313667
+  ],
+  "target_center_xy": [
+    14.0,
+    14.0
+  ],
+  "subpixel_center_shift_xy": [
+    0.005230825375585724,
+    0.5061127668633301
+  ],
+  "center_shift_clamped": false,
+  "center_interpolation": "bilinear",
+  "schema": "mnist-camera-sample-v1",
+  "shape_hw": [
+    28,
+    28
+  ],
+  "representation": "uint8_0_255_before_arm_shift",
+  "byte_order": "row-major",
+  "payload_size": 784,
+  "arm_operation": "cnn_write_image applies pixel >> 1 exactly once",
+  "created_utc": "2026-11-01T16:00:42.765454+00:00"
+}

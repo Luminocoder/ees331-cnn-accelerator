@@ -1,0 +1,412 @@
+[
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\Conv1.npy",
+    "file": "resources/weights_fp32/conv1.npy",
+    "sha256": "61ca32c6f54c1cb98e27f6556617003ca1d133c8007a6f061542406a28c72d0e"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\Conv1_b.npy",
+    "file": "resources/weights_fp32/conv1_b.npy",
+    "sha256": "fb443ffa4f19c4d80a98d470d0a9e2f0e33277d1423771a834e08960f7f988e3"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\Conv2.npy",
+    "file": "resources/weights_fp32/conv2.npy",
+    "sha256": "5594c7e4fa3880cd71a0740f145529a8e94c3ae1095bf8e74c57b2c1999a1186"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\Conv2_b.npy",
+    "file": "resources/weights_fp32/conv2_b.npy",
+    "sha256": "f6df3c0b8d770286fd452af31d46dacac437306d216262ab40fecff185377c9d"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\FC1.npy",
+    "file": "resources/weights_fp32/fc1.npy",
+    "sha256": "6560be7ef7260979973a6c09592265de3bbb4bbcc6790fea53022337e1a7b56b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\FC1_b.npy",
+    "file": "resources/weights_fp32/fc1_b.npy",
+    "sha256": "e4441e78149a026868edfa189ccc72be5a3ff93f546e0048fd93997ec7ee7d55"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\FC2.npy",
+    "file": "resources/weights_fp32/fc2.npy",
+    "sha256": "d93aa6a7c46a7499bd3344933dee78ca08ffe1cbd4ed5fac547a6701e72885b0"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_fp32\\FC2_b.npy",
+    "file": "resources/weights_fp32/fc2_b.npy",
+    "sha256": "608046e15d7f029266d67f0e97e4e8f30f192519395fc54799783af2f9c1320f"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\Conv1_b.txt",
+    "file": "resources/weights_int8/conv1_b.txt",
+    "sha256": "aa54a1a15effa892bd5bd259b4ad554b2f32c16b4ede81b5ca0c01760bab680c"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\Conv1_int8.txt",
+    "file": "resources/weights_int8/conv1_int8.txt",
+    "sha256": "7c443245313d4404b485fb174e5e22b6ce9d7dbe386e44b92128e38eaf8dd717"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\Conv2_b.txt",
+    "file": "resources/weights_int8/conv2_b.txt",
+    "sha256": "ba1b3687be6b496f3bcd5af221403d284386e0490cd6ed6cfdc3857567685f68"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\Conv2_int8.txt",
+    "file": "resources/weights_int8/conv2_int8.txt",
+    "sha256": "a5956e52ad0b8caa02cc90ce6a113c4aa084ea778e70c1b6710194c09935ca17"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\FC1_b.txt",
+    "file": "resources/weights_int8/fc1_b.txt",
+    "sha256": "c1b390c2a0227d2c3720d3bbecde416259e9d62ff88946c5944073a5053f25fc"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\FC1_int8.txt",
+    "file": "resources/weights_int8/fc1_int8.txt",
+    "sha256": "6f92dd40afd693ec28a8435c6784445c280c6c2b09e9c367b3e820aa24e0b510"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\FC2_b.txt",
+    "file": "resources/weights_int8/fc2_b.txt",
+    "sha256": "37190579db032e3d40fb427c11fe14c662bf0db60bdb87020cffff20c8ef395b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\resources\\weights_int8\\FC2_int8.txt",
+    "file": "resources/weights_int8/fc2_int8.txt",
+    "sha256": "b03ff9fae7e117874dfc73f18bdf766d85838250d586f628971a196ca380eb4b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\arm\\start.S",
+    "file": "hardware/arm/start.s",
+    "sha256": "11f00ed4b570106e97810f703d6e6957c81ee1e9374e9be05448cded959bc3f0"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\BENCHMARK_PROTOCOL.md",
+    "file": "hardware/benchmark_protocol.md",
+    "sha256": "1158f8f2226b13980a2fc5099d1f173b84882bb4468841d1a426921fc2cf418a"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\DISPLAY_PROTOCOL.md",
+    "file": "hardware/display_protocol.md",
+    "sha256": "6462a975854755bffdab63807d727466d9c07c5d717cc710bd12031c4a5e0c57"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv1.npy",
+    "file": "hardware/pl/ref_model/conv1.npy",
+    "sha256": "61ca32c6f54c1cb98e27f6556617003ca1d133c8007a6f061542406a28c72d0e"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv1_b.npy",
+    "file": "hardware/pl/ref_model/conv1_b.npy",
+    "sha256": "fb443ffa4f19c4d80a98d470d0a9e2f0e33277d1423771a834e08960f7f988e3"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv2.npy",
+    "file": "hardware/pl/ref_model/conv2.npy",
+    "sha256": "5594c7e4fa3880cd71a0740f145529a8e94c3ae1095bf8e74c57b2c1999a1186"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv2_b.npy",
+    "file": "hardware/pl/ref_model/conv2_b.npy",
+    "sha256": "f6df3c0b8d770286fd452af31d46dacac437306d216262ab40fecff185377c9d"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC1.npy",
+    "file": "hardware/pl/ref_model/fc1.npy",
+    "sha256": "6560be7ef7260979973a6c09592265de3bbb4bbcc6790fea53022337e1a7b56b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC1_b.npy",
+    "file": "hardware/pl/ref_model/fc1_b.npy",
+    "sha256": "e4441e78149a026868edfa189ccc72be5a3ff93f546e0048fd93997ec7ee7d55"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC2.npy",
+    "file": "hardware/pl/ref_model/fc2.npy",
+    "sha256": "d93aa6a7c46a7499bd3344933dee78ca08ffe1cbd4ed5fac547a6701e72885b0"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC2_b.npy",
+    "file": "hardware/pl/ref_model/fc2_b.npy",
+    "sha256": "608046e15d7f029266d67f0e97e4e8f30f192519395fc54799783af2f9c1320f"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\int8_pipeline_S_calibrate.py",
+    "file": "hardware/pl/ref_model/int8_pipeline_s_calibrate.py",
+    "sha256": "b9cd56d895e5de8d07b76a5d70a90ebe2822d9670a7c812c4513f3292249ae4a"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\Conv1_b.txt",
+    "file": "hardware/pl/ref_model/weights_int8/conv1_b.txt",
+    "sha256": "aa54a1a15effa892bd5bd259b4ad554b2f32c16b4ede81b5ca0c01760bab680c"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\Conv1_int8.txt",
+    "file": "hardware/pl/ref_model/weights_int8/conv1_int8.txt",
+    "sha256": "7c443245313d4404b485fb174e5e22b6ce9d7dbe386e44b92128e38eaf8dd717"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\Conv2_b.txt",
+    "file": "hardware/pl/ref_model/weights_int8/conv2_b.txt",
+    "sha256": "ba1b3687be6b496f3bcd5af221403d284386e0490cd6ed6cfdc3857567685f68"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\Conv2_int8.txt",
+    "file": "hardware/pl/ref_model/weights_int8/conv2_int8.txt",
+    "sha256": "a5956e52ad0b8caa02cc90ce6a113c4aa084ea778e70c1b6710194c09935ca17"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\FC1_b.txt",
+    "file": "hardware/pl/ref_model/weights_int8/fc1_b.txt",
+    "sha256": "c1b390c2a0227d2c3720d3bbecde416259e9d62ff88946c5944073a5053f25fc"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\FC1_int8.txt",
+    "file": "hardware/pl/ref_model/weights_int8/fc1_int8.txt",
+    "sha256": "6f92dd40afd693ec28a8435c6784445c280c6c2b09e9c367b3e820aa24e0b510"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\FC2_b.txt",
+    "file": "hardware/pl/ref_model/weights_int8/fc2_b.txt",
+    "sha256": "37190579db032e3d40fb427c11fe14c662bf0db60bdb87020cffff20c8ef395b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\weights_int8\\FC2_int8.txt",
+    "file": "hardware/pl/ref_model/weights_int8/fc2_int8.txt",
+    "sha256": "b03ff9fae7e117874dfc73f18bdf766d85838250d586f628971a196ca380eb4b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\v54-board-benchmark\\结论.md",
+    "file": "integration/v54-board-benchmark/conclusion.md",
+    "sha256": "6b6593a6b72051fed8bf8ed6f354e24824ae2b4468de5d3352097f81cbee10e4"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\不对称两位_50.png",
+    "file": "integration/validation-f5ff6bc5/file_224d4b4511bf.png",
+    "sha256": "f8b80251403da3e78b56dc54d516104a7af7bec94c217cfbb2ac428eafef1ade"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_4.png",
+    "file": "integration/validation-f5ff6bc5/file_ea8cf4a3c882.png",
+    "sha256": "f2cb89720feb588afe03ba4a624ee9abc18be48f76e7669522751c3b2cff99cb"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_5.png",
+    "file": "integration/validation-f5ff6bc5/file_daf623a6d5ab.png",
+    "sha256": "b571146d53db4e04af4c32199ef2f3ca2c17ba70277244b7a68db3d6b0d4c141"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\合成输入_9.png",
+    "file": "integration/validation-f5ff6bc5/file_d3f4473bd847.png",
+    "sha256": "c89d50bb0999a38a87437150a46b0569fcdae0ee40c3ef00d6a40ff4f2f84ab2"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\integration\\validation-f5ff6bc5\\空白.png",
+    "file": "integration/validation-f5ff6bc5/file_f57d31f8642e.png",
+    "sha256": "64c43fd9a1d4356ee6525771ce00e8197c0e2afce28605b1690fc2ad9fbc90a3"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\delivery-manifest.json",
+    "file": "provenance/original_delivery_manifest.json",
+    "sha256": "bd177ee2bdfe11693700dc0c30257138659ffef42032f560abce7516fb472ecb"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\README.md",
+    "file": "provenance/original_readme.md",
+    "sha256": "765fa666e47d2a01b2c8f784903ee7f97db779a6d34183d00b1e328a844a08bf"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\优化说明与验收_20261101.md",
+    "file": "provenance/optimization_notes.md",
+    "sha256": "4869d2b5568667b9dfecc33a6d2454241d9bf8e4d066b2d6938a233fb1489333"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\tests\\verify_integrity.py",
+    "file": "provenance/original_verify_integrity.py",
+    "sha256": "d406779fa3872bff9427d3f2e829c6a9eaf2069f4b06145a2979356dc5d13ce4"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\EES331_Studio.exe",
+    "file": "ees331_studio.exe",
+    "sha256": "e92846ceeef3c7af11c6251f431136e6dc19533ff1e8f53127be8bce7fe0d77b"
+  },
+  {
+    "source": "MNIST_improved_v2\\README_交付说明.md",
+    "file": "extras/peer_mlp/delivery_notes.md",
+    "sha256": "3d2333096f20148a59b0aa264b0184933b079a6080cf820497cce9f406c47c5a"
+  },
+  {
+    "source": "MNIST_improved_v2\\README_改进说明.md",
+    "file": "extras/peer_mlp/improvement_notes.md",
+    "sha256": "4707745f76ad3247999e31efce4b6861f88b354eee2afae5e27a6f000d104d18"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv1.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/conv1.npy",
+    "sha256": "61ca32c6f54c1cb98e27f6556617003ca1d133c8007a6f061542406a28c72d0e"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv1_b.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/conv1_b.npy",
+    "sha256": "fb443ffa4f19c4d80a98d470d0a9e2f0e33277d1423771a834e08960f7f988e3"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv2.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/conv2.npy",
+    "sha256": "5594c7e4fa3880cd71a0740f145529a8e94c3ae1095bf8e74c57b2c1999a1186"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\Conv2_b.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/conv2_b.npy",
+    "sha256": "f6df3c0b8d770286fd452af31d46dacac437306d216262ab40fecff185377c9d"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC1.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/fc1.npy",
+    "sha256": "6560be7ef7260979973a6c09592265de3bbb4bbcc6790fea53022337e1a7b56b"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC1_b.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/fc1_b.npy",
+    "sha256": "e4441e78149a026868edfa189ccc72be5a3ff93f546e0048fd93997ec7ee7d55"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC2.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/fc2.npy",
+    "sha256": "d93aa6a7c46a7499bd3344933dee78ca08ffe1cbd4ed5fac547a6701e72885b0"
+  },
+  {
+    "source": "EES331_Studio_v5.6_convfast_candidate_20261101\\hardware\\pl\\ref_model\\FC2_b.npy",
+    "file": "hardware/pl/ref_model/weights_fp32/fc2_b.npy",
+    "sha256": "608046e15d7f029266d67f0e97e4e8f30f192519395fc54799783af2f9c1320f"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\LICENSE.txt",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/license.txt",
+    "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\include\\numpy\\libdivide\\LICENSE.txt",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/license.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\common\\pythoncapi-compat\\COPYING",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/copying",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\highway\\LICENSE",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/license",
+    "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\multiarray\\dragon4_LICENSE.txt",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_license.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\npysort\\x86-simd-sort\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/license.md",
+    "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\_core\\src\\umath\\svml\\LICENSE",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/license",
+    "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\fft\\pocketfft\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/license.md",
+    "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\linalg\\lapack_lite\\LICENSE.txt",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/license.txt",
+    "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\ma\\LICENSE",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/ma/license",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/license.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\distributions\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/license.md",
+    "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\mt19937\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/license.md",
+    "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\pcg64\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/license.md",
+    "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\philox\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/license.md",
+    "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\sfc64\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/license.md",
+    "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy-2.5.3.dist-info\\licenses\\numpy\\random\\src\\splitmix64\\LICENSE.md",
+    "file": "third_party/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/license.md",
+    "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy\\_core\\include\\numpy\\random\\LICENSE.txt",
+    "file": "third_party/numpy/numpy/_core/include/numpy/random/license.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy\\ma\\LICENSE",
+    "file": "third_party/numpy/numpy/ma/license",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\numpy\\random\\LICENSE.md",
+    "file": "third_party/numpy/numpy/random/license.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\cv2\\LICENSE-3RD-PARTY.txt",
+    "file": "third_party/opencv-contrib-python/cv2/license-3rd-party.txt",
+    "sha256": "c1d60169b55cee56452b227c2fd2a7b9ddda3dd3741065f1c6201072be73fadb"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\cv2\\LICENSE.txt",
+    "file": "third_party/opencv-contrib-python/cv2/license.txt",
+    "sha256": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\opencv_contrib_python-5.0.0.93.dist-info\\LICENSE-3RD-PARTY.txt",
+    "file": "third_party/opencv-contrib-python/opencv_contrib_python-5.0.0.93.dist-info/license-3rd-party.txt",
+    "sha256": "c1d60169b55cee56452b227c2fd2a7b9ddda3dd3741065f1c6201072be73fadb"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\opencv_contrib_python-5.0.0.93.dist-info\\LICENSE.txt",
+    "file": "third_party/opencv-contrib-python/opencv_contrib_python-5.0.0.93.dist-info/license.txt",
+    "sha256": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+  },
+  {
+    "source": "C:\\Users\\费浩轩\\tools\\python-3.13.7\\Lib\\site-packages\\pillow-12.3.0.dist-info\\licenses\\LICENSE",
+    "file": "third_party/pillow/pillow-12.3.0.dist-info/licenses/license",
+    "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+  }
+]

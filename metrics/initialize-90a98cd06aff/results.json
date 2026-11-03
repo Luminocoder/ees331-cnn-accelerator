@@ -1,0 +1,69 @@
+{
+  "status": "ONECLICK_INITIALIZATION_PASS",
+  "port": "COM5",
+  "preflight": {
+    "resource_root": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\_internal\\resources",
+    "files": {
+      "flash_payload/app.elf": {
+        "bytes": 98744,
+        "sha256": "97c830045a0e2511ac014b94cca218c015de9f33f22052c6b77114f8d917b008"
+      },
+      "flash_payload/ps7_init.tcl": {
+        "bytes": 26573,
+        "sha256": "4059d0d47de686973254485dda512839c5c545111ddd8d07d840a923acb97a5d"
+      },
+      "flash_payload/system.bit": {
+        "bytes": 4045690,
+        "sha256": "722d30d5fdfe73abc19464d2b77715f20277a3ba6f98080198717e94b1f55fa3"
+      },
+      "initialization/bringup.tcl": {
+        "bytes": 6593,
+        "sha256": "02e0ad67d097a8b6c6449d6af7d3137c390b35fcdeac7db33bb265392d31e4bf"
+      },
+      "initialization/initialize.tcl": {
+        "bytes": 2445,
+        "sha256": "b91f9f22431f72b99e7601af600dc3bafdcb68f290a2ef13a88c5719531db559"
+      }
+    },
+    "elf_loads": [
+      {
+        "address": 1048576,
+        "memory_bytes": 79820
+      },
+      {
+        "address": 1128396,
+        "memory_bytes": 52040
+      }
+    ],
+    "inference_tests_run": false,
+    "hardware_accessed": false,
+    "fpga_model": "existing INT8 CNN; peer MLP is PC-only"
+  },
+  "initialization_verified": true,
+  "inference_tests_run": false,
+  "flash_or_sd_written": false,
+  "hardware_model_attested": false,
+  "deployment": {
+    "workspace": "D:\\aic\\ees331-v5-runs\\run-057a8f50bc4a464ca93ca2f091e9187c",
+    "vivado": "D:\\2025.1\\Vivado",
+    "runtime": {
+      "status": "XSDB_RUNTIME_PASS",
+      "hardware_accessed": false,
+      "vivado": "D:\\2025.1\\Vivado",
+      "workspace": "D:\\aic\\ees331-v5-runs\\runtime-6788f50383c640c39c6d1503be87564e",
+      "frozen_parent": true,
+      "dll_search_isolated": true,
+      "previous_dll_directory": "C:\\Users\\费浩轩\\Desktop\\V5统合版\\EES331_Studio_v5.6_convfast_candidate_20261101\\_internal",
+      "dll_directory_restored": true,
+      "exit_code": 0,
+      "marker": "V5_XSDB_RUNTIME_PASS Tcl=8.6.13"
+    },
+    "owned_hw_server": true,
+    "deployment_marker": true
+  },
+  "uart_reopened_after_jtag": true,
+  "hello_timeout_seconds": 10.0,
+  "hello_response_seconds": 3.2125336000008247,
+  "hello_verified": true,
+  "display_ack_verified": true
+}

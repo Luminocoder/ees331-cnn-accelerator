@@ -1,0 +1,213 @@
+{
+  "schema": "ees331-capture-batch-v1",
+  "batch_id": "20261102-174711-bc7a3aeb",
+  "created_utc": "2026-11-02T09:47:11.055076+00:00",
+  "state": "completed",
+  "entries": [
+    {
+      "index": 0,
+      "mode": "two",
+      "status": "recognized",
+      "text": "79",
+      "display_text": "79",
+      "run": "../../vision/20261102-174734-e8abdd3d"
+    },
+    {
+      "index": 1,
+      "mode": "two",
+      "status": "error",
+      "error": "右框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-174808-b4be9165"
+    },
+    {
+      "index": 2,
+      "mode": "two",
+      "status": "recognized",
+      "text": "28",
+      "display_text": "28",
+      "run": "../../vision/20261102-174817-d930be6b"
+    },
+    {
+      "index": 3,
+      "mode": "single",
+      "status": "error",
+      "error": "取景框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-174847-eceee83e"
+    },
+    {
+      "index": 4,
+      "mode": "single",
+      "status": "error",
+      "error": "取景框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-174903-4ee8f041"
+    },
+    {
+      "index": 5,
+      "mode": "single",
+      "status": "recognized",
+      "text": "9",
+      "display_text": "09",
+      "run": "../../vision/20261102-174905-bfadd1ac"
+    },
+    {
+      "index": 6,
+      "mode": "single",
+      "status": "error",
+      "error": "取景框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-174918-bee4c8fb"
+    },
+    {
+      "index": 7,
+      "mode": "single",
+      "status": "error",
+      "error": "取景框：Multiple large components; crop a single connected digit；每框放一个完整黑字，四周留白",
+      "run": "../../vision/20261102-174921-74b7ff1e"
+    },
+    {
+      "index": 8,
+      "mode": "single",
+      "status": "recognized",
+      "text": "4",
+      "display_text": "04",
+      "run": "../../vision/20261102-174925-067eda6e"
+    },
+    {
+      "index": 9,
+      "mode": "single",
+      "status": "recognized",
+      "text": "3",
+      "display_text": "03",
+      "run": "../../vision/20261102-174933-8dedfb15"
+    }
+  ],
+  "pages": [
+    "79 28 09",
+    "04 03   "
+  ],
+  "page_seconds": 5,
+  "display_events": [
+    {
+      "state": "requested",
+      "page_index": 0,
+      "page": "79 28 09",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:36.457645+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 0,
+      "page": "79 28 09",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:36.479751+00:00"
+    },
+    {
+      "state": "requested",
+      "page_index": 1,
+      "page": "04 03   ",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:41.481821+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 1,
+      "page": "04 03   ",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:41.546744+00:00"
+    },
+    {
+      "state": "completed",
+      "page_index": null,
+      "page": null,
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:46.548107+00:00"
+    },
+    {
+      "state": "requested",
+      "page_index": 0,
+      "page": "79 28 09",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:56.176248+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 0,
+      "page": "79 28 09",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:49:56.218148+00:00"
+    },
+    {
+      "state": "requested",
+      "page_index": 1,
+      "page": "04 03   ",
+      "transport": "uart",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:50:01.220709+00:00"
+    },
+    {
+      "state": "playing",
+      "page_index": 1,
+      "page": "04 03   ",
+      "transport": "uart",
+      "ack_verified": true,
+      "hardware_verified": false,
+      "physical_observation_pending": true,
+      "error": null,
+      "utc": "2026-11-02T09:50:01.252144+00:00"
+    },
+    {
+      "state": "stopped",
+      "page_index": null,
+      "page": null,
+      "transport": "computer_preview",
+      "ack_verified": false,
+      "hardware_verified": false,
+      "physical_observation_pending": false,
+      "error": null,
+      "utc": "2026-11-02T09:50:01.906186+00:00"
+    }
+  ],
+  "playback_state": "stopped",
+  "display_contract": "8 cells: DD space DD space DD; single digits zero-padded",
+  "values": [
+    "79",
+    "28",
+    "9",
+    "4",
+    "3"
+  ],
+  "full_text": "79 28 09 04 03",
+  "digit_count": 7,
+  "page_count": 2,
+  "finished_utc": "2026-11-02T09:49:36.424302+00:00"
+}
